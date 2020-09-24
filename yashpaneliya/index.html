@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <title>TubeLight Effect</title>
+        <style>
+            body{
+                padding: 0;
+                margin: 0;
+                background: #262626;
+            }
+            ul{
+                position: absolute;
+                top:30%;
+                left:50%;
+                transform: translate(-50%,50%);
+                margin:0;
+                padding: 0;
+                display: flex;
+            }
+            ul li{
+                list-style: none;
+                font-family: arial;
+                font-size: 8em;
+                letter-spacing: 15px;
+                color: cyan;
+                text-shadow: none;
+                animation: animate 1s infinite;
+            }
+            @keyframes animate {
+                0%{
+                    color:#484848;
+                    text-shadow: none;;
+                }
+                18%{
+                    color:#484848;
+                    text-shadow: none;;
+                }
+                20%{
+                    color:cyan;
+                    text-shadow: 0 0 7px cyan,0 0 20px cyan;
+                }
+                30%{
+                    color:#484848;
+                    text-shadow: none;;
+                }
+                35%{
+                    color:cyan;
+                    text-shadow: 0 0 7px cyan,0 0 20px cyan;
+                }
+                70%{
+                    color:#484848;
+                    text-shadow: none;;
+                }
+                85%{
+                    color:cyan;
+                    text-shadow: 0 0 7px cyan,0 0 20px cyan;
+                }
+                90%{
+                    color:#484848;
+                    text-shadow: none;;
+                }
+                100%{
+                    color:#484848;
+                    text-shadow: none;;
+                }
+            }
+            ul li:nth-child(1)
+            {
+                animation-delay: .4s;
+            }
+            ul li:nth-child(2)
+            {
+                animation-delay: .1s;
+            }
+            ul li:nth-child(3)
+            {
+                animation-delay: .6s;
+            }
+            ul li:nth-child(4)
+            {
+                animation-delay: .8s;
+            }
+            ul li:nth-child(5)
+            {
+                animation-delay: .1s;
+            }
+            ul li:nth-child(6)
+            {
+                animation-delay: .5s;
+            }
+            ul li:nth-child(7)
+            {
+                animation-delay: 1.6s;
+            }
+            ul li:nth-child(8)
+            {
+                animation-delay: .5s;
+            }
+            ul li:nth-child(9)
+            {
+                animation-delay: 1.4s;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li>D</li>
+            <li>E</li>
+            <li>V</li>
+            <li>E</li>
+            <li>L</li>
+            <li>O</li>
+            <li>P</li>
+            <li>E</li>
+            <li>R</li>
+        </ul>
+    </body>
+</html>
