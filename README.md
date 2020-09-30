@@ -54,6 +54,6 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 
 ![](https://img.shields.io/badge/Star-If_Liked-%23FF0000.svg?&style=flat&logoColor=white&color=white)
 ![](https://img.shields.io/badge/Fork-If_you_found_interesting-%23FF0000.svg?&style=flat&logoColor=white&color=white)<br>
-<a href="https://github.com/clubgamma/2x-Productivity/issues/new"><img src="https://img.shields.io/badge/Query-Ask_Us_Anything-blue"/></a><br>
+<a href="https://github.com/clubgamma/Awesome-Web-Art/issues/new"><img src="https://img.shields.io/badge/Query-Ask_Us_Anything-blue"/></a><br>
 <br>
 </div>
