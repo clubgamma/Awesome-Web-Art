@@ -31,6 +31,7 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 | Art💖 | Code📃 | Artist😎 |
 |---|---|---|
 | <img src="https://github.com/clubgamma/Awesome-Web-Art/blob/master/yashpaneliya/developer.gif" width=80% height=70%> | [Find the code here](https://github.com/clubgamma/Awesome-Web-Art/tree/master/yashpaneliya) | [Yash Paneliya](https://github.com/yashpaneliya) |
+| <img src="iamrahulpanchal/resources/images/screencapture.png" width=80% height=auto> | [Find the code here](https://github.com/iamrahulpanchal/tech-summit-conference-demo-website) | [Yash Paneliya](https://github.com/iamrahulpanchal) |
 
 
 # Things to keep in mind
