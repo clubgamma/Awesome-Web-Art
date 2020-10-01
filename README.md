@@ -42,8 +42,10 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 | <img src="iamrahulpanchal/resources/images/screencapture.png" width=80% height=auto> | [Find the code here](https://github.com/iamrahulpanchal/tech-summit-conference-demo-website) | [Rahul Panchal](https://github.com/iamrahulpanchal) |
 | <img src="https://user-images.githubusercontent.com/63587007/94777672-788d8e80-03e1-11eb-9ce7-a16cc6563d00.gif" width=80% height=70%> | [Find the code here](https://github.com/AyushSojitra/Awesome-Web-Art/blob/master/AyushSojitra/second_animation) | [Ayush Sojitra](https://github.com/AyushSojitra) |
 | <img src="https://user-images.githubusercontent.com/53337926/94776372-41b67900-03df-11eb-8f26-41ae66edddab.gif" width=80% height=70%> | [Find the code here](https://github.com/MananJoshimj/Awesome-Web-Art/blob/MananJoshimj-3D-Animation-1/MananJoshimj/3D%20Animation.html) | [Manan Joshi](https://github.com/MananJoshimj) |
+| <img src="https://user-images.githubusercontent.com/63587007/94796454-72f17200-03fc-11eb-9002-bd70b82242f5.gif" width=80% height=70%> | [Find the code here](https://github.com/AyushSojitra/Awesome-Web-Art/blob/master/AyushSojitra/search_button_animated.html) | [Ayush Sojitra](https://github.com/AyushSojitra) |
 | <img src="https://user-images.githubusercontent.com/42127477/94799447-bfd74780-0400-11eb-9284-2cbbd22d23be.gif" width=80% height=70%> | [Find the code here](https://github.com/YashMakadiya123/Awesome-Web-Art/blob/YashMakadiya123-3D_Animation_cube/YashMakadiya123/3D-Animation_cube.html) | [Yash Makadiya](https://github.com/YashMakadiya123) |
 | <img src="https://github.com/imjp19/Awesome-Web-Art/blob/master/imjp19/ezgif.com-gif-maker.gif" width=80% height=70%> | [Find the code here](https://github.com/imjp19/Awesome-Web-Art/blob/master/imjp19/login-signup-animation.html) | [Jay Patel](https://github.com/imjp19) |
+
 
 # Things to keep in mind
 
