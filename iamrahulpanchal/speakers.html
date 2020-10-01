@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Speakers</title>
+
+	<meta charset="utf-8"/>
+	<meta name="viewport" content= "width=device-width, initial-scale=1.0, user-scalable=no">
+
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css"> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha512-bnIvzh6FU75ZKxp0GXLH9bewza/OIw6dLVh9ICg0gogclmYGguQJWl8U30WpbsGTqbIiAwxTsbe76DErLq5EDQ==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha512-znmTf4HNoF9U6mfB6KlhAShbRvbt4CvCaHoNV0gyssfToNQ/9A0eNdUbvsSwOIUoJdMjFG2ndSvr0Lo3ZpsTqQ==" crossorigin="anonymous" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha512-jCaU0Dp3IbMDlZ6f6dSEQSnOrSsugG6F6YigRWnagi7HoOLshF1kwxLT4+xCZRgQsTNqpUKj6WmWOxsu9l3URA==" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha512-L7MWcK7FNPcwNqnLdZq86lTHYLdQqZaz5YcAgE+5cnGmlw8JT03QB2+oxL100UeB6RlzZLUxCGSS4/++mNZdxw==" crossorigin="anonymous" />
+
+	<style>
+		.card-container:hover .card{
+			transform: rotateY(180deg);
+		}
+
+		.card figure{
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			margin: 0;
+			border-radius: 5px;
+			display: flex;
+			flex-flow: column;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.card .front{
+			background-color: #FE4263;
+			color: white;
+		}
+
+		.card .back{
+			background-color: #343853;
+			color: white;
+			transform: rotateY(180deg);
+		}
+	</style>
+
+</head>
+<body>
+	<nav>
+		<input type="checkbox" id="check">
+		<label for="check" class="checkbtn">
+			<i class="fas fa-bars"></i>
+		</label>
+		<label class="logo"><a href="index.html">Demo<strong>Website</strong></a></label>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="speakers.html">Speakers</a></li>
+			<li><a href="schedule.html">Schedule</a></li>
+			<li><a href="faq.html">FAQ</a></li>
+		</ul>
+	</nav>
+
+	<div class="container speakers-container">
+		<p class="speakers-list-text">List of Speakers</p>
+		<div class="row speakers-row-1">
+			<div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+				<div class="card-container">
+					<div class="card">
+						<figure class="front">
+							<img src="resources/images/cleve-gibbon.jpg">
+							<p>Cleve Gibbon</p>
+						</figure>
+						<figure class="back">
+							<p>Cleve Gibbon is chief technology officer at Wunderman Thompson in North America. In his new role, Gibbon will continue to serve as chief marketing technology officer at Cognifide, a mar tech consultancy that WPP’s digital investment arm and Wunderman bought a stake in five years ago.</p>
+						</figure>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+				<div class="card-container">
+					<div class="card">
+						<figure class="front">
+							<img src="resources/images/alan-zwiebel.jpg">
+							<p>Alan Zwiebel</p>
+						</figure>
+						<figure class="back">
+							<p>Zweibel delivers a charming and candid look at his career journey as a comedy writer. He describes the experience of writing for some of television’s most beloved comedies and discusses how his career success has transcended television to film, theater, and literature.</p>
+						</figure>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+				<div class="card-container">
+					<div class="card">
+						<figure class="front">
+							<img src="resources/images/liz-willits.jpg">
+							<p>Liz Willits</p>
+						</figure>
+						<figure class="back">
+							<p>Liz is a content marketing expert who teaches more than 100,000 businesses and entrepreneurs how to successfully power their email marketing on a daily basis.</p>
+						</figure>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="row speakers-row-2">
+			<div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+				<div class="card-container">
+					<div class="card">
+						<figure class="front">
+							<img src="resources/images/marin-perez.jpg">
+							<p>Marin Perez</p>
+						</figure>
+						<figure class="back">
+							<p>Marin has spent more than a decade creating high-performing content for businesses of all sizes. A recovering journalist, he’s worked on content marketing programs for small startups and now, for Microsoft.</p>
+						</figure>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
+				<div class="card-container">
+					<div class="card">
+						<figure class="front">
+							<img src="resources/images/wendy-richardson.jpg">
+							<p>Wendy Richardson</p>
+						</figure>
+						<figure class="back">
+							<p>Wendy leads the Mastercard Global Technical Services team, with the charter of delivering quality customer support and “voice of the customer” intelligence to Mastercard Product and Services teams.</p>
+						</figure>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+
+	<div class="container-fluid footer-div">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-6 col-xs-12 col-sm-12 inner-div">
+					<p class="footer-header">About Us</p>
+					<p class="footer-content">We are an enthusiastic and innovative bunch who aim to achieve new heights of success and glory. We are a group of geeks very passionate and committed to our work. As a famous owner advisor Chris Grosser said "Opportunities don't happen. You create them."</p>
+				</div>
+				<div class="col-md-3 col-lg-3 col-xs-12 col-sm-12 inner-div">
+					<p class="footer-header">Keep Connected</p>
+					<p class="footer-content"><span><i class="fab fa-facebook"></i></span>Like Us on Facebook</p>
+					<p class="footer-content"><span><i class="fab fa-twitter"></i></span>Follow Us on Twitter</p>
+					<p class="footer-content"><span><i class="fab fa-instagram"></i></span>Follow Us on Instagram</p>
+				</div>
+				<div class="col-md-3 col-lg-3 col-xs-12 col-sm-12 inner-div">
+					<p class="footer-header">Contact Us</p>
+					<p class="footer-content"><span><i class="fas fa-home"></i></span>Andheri, Mumbai</p>
+					<p class="footer-content"><span><i class="fas fa-phone"></i></span>+91 99999 99999</p>
+					<p class="footer-content"><span><i class="far fa-envelope"></i></span>support@example.com</p>
+				</div>
+			</div>
+			<hr />
+			<div class="row copyright-div">
+				<p>Copyright &copy; 2020 Rahul Panchal. All Rights Reserved</p>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		const currentLocation = location.href;
+		const menuItem = document.querySelectorAll('a');
+		const menuLength = menuItem.length
+		for(let i=0; i<menuLength; i++){
+			if(menuItem[i].href === currentLocation){
+				menuItem[i].className = "active"
+			}
+		}
+	</script>
+</body>
+</html> 

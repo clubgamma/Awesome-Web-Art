@@ -32,6 +32,13 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 |---|---|---|
 | <img src="https://github.com/clubgamma/Awesome-Web-Art/blob/master/yashpaneliya/developer.gif" width=80% height=70%> | [Find the code here](https://github.com/clubgamma/Awesome-Web-Art/tree/master/yashpaneliya) | [Yash Paneliya](https://github.com/yashpaneliya) |
 | <img src="https://user-images.githubusercontent.com/61018483/94776026-90afde80-03de-11eb-99f2-03158475dc0f.gif" width=80% height=70%> | [Find the code here](https://github.com/darshvaghasia12/Awesome-Web-Art/blob/master/darshvaghasia12/FrameAnimation.html) | [Darsh Vaghasia](https://github.com/darshvaghasia12) |
+| <img src="https://user-images.githubusercontent.com/58872848/94771184-475a9180-03d4-11eb-8aa8-6b0c167fc4c9.jpg" width=80% height=70%> | [Find the code here](https://github.com/krish-pabani/Awesome-Web-Art/blob/master/krish-pabani/animation4.html) | [Krish Pabani](https://github.com/krish-pabani) |
+| <img src="https://user-images.githubusercontent.com/58872848/94772145-9dc8cf80-03d6-11eb-90fc-8c3507ce5d42.gif" width=80% height=70%> | [Find the code here](https://github.com/krish-pabani/Awesome-Web-Art/blob/master/krish-pabani/animation1.html) | [Krish Pabani](https://github.com/krish-pabani) |
+| <img src="https://user-images.githubusercontent.com/63587007/94774663-fe0e4000-03db-11eb-87bc-c1c10b0c593d.gif" width=80% height=70%> | [Find the code here](https://github.com/AyushSojitra/Awesome-Web-Art/blob/master/AyushSojitra/Share_button.html) | [Ayush Sojitra](https://github.com/AyushSojitra) |
+| <img src="https://user-images.githubusercontent.com/58872848/94772665-c0a7b380-03d7-11eb-8700-661504d62ef6.gif" width=80% height=70%> | [Find the code here](https://github.com/krish-pabani/Awesome-Web-Art/blob/master/krish-pabani/animation2.html) | [Krish Pabani](https://github.com/krish-pabani) |
+| <img src="iamrahulpanchal/resources/images/screencapture.png" width=80% height=auto> | [Find the code here](https://github.com/iamrahulpanchal/tech-summit-conference-demo-website) | [Rahul Panchal](https://github.com/iamrahulpanchal) |
+| <img src="https://user-images.githubusercontent.com/58872848/94771184-475a9180-03d4-11eb-8aa8-6b0c167fc4c9.jpg" width=80% height=70%> | [Find the code here](https://github.com/krish-pabani/Awesome-Web-Art/blob/master/krish-pabani/animation4.html) | [Krish Pabani](https://github.com/krish-pabani) |
+| <img src="https://user-images.githubusercontent.com/58872848/94772145-9dc8cf80-03d6-11eb-90fc-8c3507ce5d42.gif" width=80% height=70%> | [Find the code here](https://github.com/krish-pabani/Awesome-Web-Art/blob/master/krish-pabani/animation1.html) | [Krish Pabani](https://github.com/krish-pabani) |
 
 # Things to keep in mind
 
