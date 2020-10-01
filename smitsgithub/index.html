@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Parallex Effect</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <section>
+            <img src="bg.jpg" id="bg">
+            <img src="moon.png" id="moon">
+            <img src="mountain.png" id="mountain">
+            <img src="road.png" id="road">
+            <h2 id="text">Parallex Effect</h2>
+        </section>
+        <script type="text/javascript">
+            let bg = document.getElementById("bg");
+            let moon = document.getElementById("moon");
+            let mountain = document.getElementById("mountain");
+            let road = document.getElementById("road");
+            let text = document.getElementById("text");
+
+            window.addEventListener('scroll',function(){
+                var value = window.scrollY;
+
+                bg.style.top = value + 'px'
+            })
+        </script>
+    </body>
+</html>
