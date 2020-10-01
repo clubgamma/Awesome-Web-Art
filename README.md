@@ -50,6 +50,7 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 | <img src="https://github.com/imjp19/Awesome-Web-Art/blob/master/imjp19/ezgif.com-gif-maker.gif" width=80% height=70%>                 | [Find the code here](https://github.com/imjp19/Awesome-Web-Art/blob/master/imjp19/login-signup-animation.html)                                                     | [Jay Patel](https://github.com/imjp19)               |
 | <img src="https://github.com/thevrajshah/Awesome-Web-Art/blob/master/thevrajshah/Accordian.gif" width=80% height=70%>                 | [Find the code here](https://github.com/thevrajshah/Awesome-Web-Art/blob/master/thevrajshah/Accordian.html)                                                        | [Vraj Shah](https://github.com/thevrajshah)          |
 
+
 # Things to keep in mind
 
 - **Before creating any Pull Request, please register yourself at [Hacktoberfest's Official Website](https://hacktoberfest.digitalocean.com/)**
