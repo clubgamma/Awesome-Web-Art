@@ -49,6 +49,7 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 | <img src="https://user-images.githubusercontent.com/63587007/94796454-72f17200-03fc-11eb-9002-bd70b82242f5.gif" width=80% height=70%> | [Find the code here](https://github.com/AyushSojitra/Awesome-Web-Art/blob/master/AyushSojitra/search_button_animated.html) | [Ayush Sojitra](https://github.com/AyushSojitra) |
 | <img src="https://github.com/imjp19/Awesome-Web-Art/blob/master/imjp19/ezgif.com-gif-maker.gif" width=80% height=70%> | [Find the code here](https://github.com/imjp19/Awesome-Web-Art/blob/master/imjp19/login-signup-animation.html) | [Jay Patel](https://github.com/imjp19) |
 | <img src="https://github.com/smit4297/Awesome-Web-Art/blob/master/smit4297/smit4297.gif" width=80% height=70%> | [Find the code here](https://github.com/smit4297/Awesome-Web-Art/blob/master/smit4297/index.html) | [Smit Patel](https://github.com/smit4297) |
+| <img src="https://github.com/imjp19/Awesome-Web-Art/blob/master/imjp19/ezgif.com-gif-maker%20(2).gif" width=80% height=70%> | [Find the code here](https://github.com/imjp19/Awesome-Web-Art/blob/master/imjp19/button-hover.html.html) | [Jay Patel](https://github.com/imjp19) |
 
 
 # Things to keep in mind
