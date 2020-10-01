@@ -30,7 +30,7 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 
 | Art💖 | Code📃 | Artist😎 |
 |---|---|---|
-| <img src="https://github.com/smitsgithub/Awesome-Web-Art/blob/master/smitsgithub/parallex.png" width=80% height=70%>[Find the code here](https://github.com/smitsgithub/Awesome-Web-Art/tree/master/smitsgithub) | [Smit Patel](https://github.com/smitsgithub) |
+| <img src="https://github.com/smitsgithub/Awesome-Web-Art/blob/master/smitsgithub/parallex.png" width=80% height=70%>|[Find the code here](https://github.com/smitsgithub/Awesome-Web-Art/tree/master/smitsgithub) | [Smit Patel](https://github.com/smitsgithub) |
 | <img src="https://github.com/clubgamma/Awesome-Web-Art/blob/master/yashpaneliya/developer.gif" width=80% height=70%> | [Find the code here](https://github.com/clubgamma/Awesome-Web-Art/tree/master/yashpaneliya) | [Yash Paneliya](https://github.com/yashpaneliya) |
 | <img src="https://user-images.githubusercontent.com/42127477/94778156-4df00580-03e2-11eb-8885-781e413a9213.gif" width=80% height=70%> | [Find the code here](https://github.com/YashMakadiya123/Awesome-Web-Art/blob/YashMakadiya123-3D_Animation_revolve/YashMakadiya123/3D-Animation_revolve.html) | [Yash Makadiya](https://github.com/YashMakadiya123) |
 | <img src="https://user-images.githubusercontent.com/61018483/94776026-90afde80-03de-11eb-99f2-03158475dc0f.gif" width=80% height=70%> | [Find the code here](https://github.com/darshvaghasia12/Awesome-Web-Art/blob/master/darshvaghasia12/FrameAnimation.html) | [Darsh Vaghasia](https://github.com/darshvaghasia12) |
