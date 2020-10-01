@@ -41,7 +41,7 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 | <img src="https://user-images.githubusercontent.com/58872848/94771184-475a9180-03d4-11eb-8aa8-6b0c167fc4c9.jpg" width=80% height=70%> | [Find the code here](https://github.com/krish-pabani/Awesome-Web-Art/blob/master/krish-pabani/animation4.html) | [Krish Pabani](https://github.com/krish-pabani) |
 | <img src="https://user-images.githubusercontent.com/58872848/94772145-9dc8cf80-03d6-11eb-90fc-8c3507ce5d42.gif" width=80% height=70%> | [Find the code here](https://github.com/krish-pabani/Awesome-Web-Art/blob/master/krish-pabani/animation1.html) | [Krish Pabani](https://github.com/krish-pabani) |
 | <img src="https://user-images.githubusercontent.com/53337926/94776372-41b67900-03df-11eb-8f26-41ae66edddab.gif" width=80% height=70%> | [Find the code here](https://github.com/MananJoshimj/Awesome-Web-Art/blob/MananJoshimj-3D-Animation-1/MananJoshimj/3D%20Animation.html) | [Manan Joshi](https://github.com/MananJoshimj) |
-
+| <img src="https://user-images.githubusercontent.com/42127477/94799447-bfd74780-0400-11eb-9284-2cbbd22d23be.gif" width=80% height=70%> | [Find the code here](https://github.com/YashMakadiya123/Awesome-Web-Art/blob/YashMakadiya123-3D_Animation_cube/YashMakadiya123/3D-Animation_cube.html) | [Yash Makadiya](https://github.com/YashMakadiya123) |
 # Things to keep in mind
 
   - **Before creating any Pull Request, please register yourself at [Hacktoberfest's Official Website](https://hacktoberfest.digitalocean.com/)**
