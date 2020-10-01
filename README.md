@@ -31,7 +31,7 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 | Art💖 | Code📃 | Artist😎 |
 |---|---|---|
 | <img src="https://github.com/clubgamma/Awesome-Web-Art/blob/master/yashpaneliya/developer.gif" width=80% height=70%> | [Find the code here](https://github.com/clubgamma/Awesome-Web-Art/tree/master/yashpaneliya) | [Yash Paneliya](https://github.com/yashpaneliya) |
-
+| <img src="https://user-images.githubusercontent.com/61018483/94776026-90afde80-03de-11eb-99f2-03158475dc0f.gif" width=80% height=70%> | [Find the code here](https://github.com/darshvaghasia12/Awesome-Web-Art/blob/master/darshvaghasia12/FrameAnimation.html) | [Darsh Vaghasia](https://github.com/darshvaghasia12) |
 
 # Things to keep in mind
 
