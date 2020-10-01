@@ -1,0 +1,420 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box !important;
+	list-style-type: none !important;
+	text-decoration: none !important;
+}
+
+body{
+	font-family: 'Titillium Web', sans-serif !important;
+	font-weight: 400 !important; 
+	font-size: 18px !important;
+}
+
+.row{
+	width: 100%;
+	margin: 0 !important;
+}
+nav{
+	background-color: #FE4263;
+	height: 80px;
+	width: 100%;
+}
+
+label.logo{
+	color: white;
+	font-size: 32px;
+	line-height: 80px;
+	padding-left: 80px;
+	margin: 0;
+}
+
+label.logo a{
+	color: white;
+}
+
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 8px;
+}
+
+nav ul li a{
+	color: white;
+	font-size: 22px;
+	padding: 4px 15px;
+	border-radius: 7px;
+}
+
+ul li a.active, ul li a:hover{
+	background-color: white;
+	transition: .5s;
+	color: #FE4263 !important;
+}
+
+.checkbtn{
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+
+#check{
+	display: none;
+}
+
+.conference-div{
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+}
+
+.conference-div img{
+	max-width: 100%; 
+	max-height: 100%;
+}
+
+.details-div{
+	display: flex; 
+	justify-content: center; 
+	flex-flow: column; 
+	align-items: center;
+}
+
+.details-div .tsc-text{
+	font-size: 48px; 
+	color: #FE4263; 
+	font-weight: bold;
+}
+
+.details-div .register-btn{
+	padding: 15px; 
+	border-radius: 10px; 
+	background-color: #343853; 
+	border: 1px solid #343853; 
+	color: white; 
+	margin-bottom: 40px;
+}
+
+.when-where{
+	display: flex; 
+	flex-flow: row; 
+	width: 100%; 
+	justify-content: center;
+}
+
+.when-div, .where-div{
+	font-size: 22px; 
+	background-color: #FE4263; 
+	color: white; 
+	padding: 25px; 
+	display: flex; 
+	align-items: center; 
+	flex-flow: column; 
+	border-radius: 10px; 
+}
+
+.when-div{
+	margin-right: 50px;
+}
+
+.when-where p{
+	margin-bottom: 10px;
+}
+
+.when-where span{
+	margin-right: 10px;
+}
+
+.qna-div{
+	margin-top: 40px;
+}
+
+.qna-details{
+	text-align: center;
+}
+
+.qna-div .text-header{
+	font-weight: bold; 
+	color: #343853; 
+	font-size: 32px; 
+	text-align: left;
+}
+
+.qna-div .text-content{
+	font-size: 18px; 
+	text-align: left; 
+	letter-spacing: 1px;
+}
+
+.footer-div{
+	background-color: #343853; 
+	margin-top: 40px;
+}
+
+.footer-div .inner-div{
+	padding: 25px 15px;
+}
+
+.footer-div .footer-header{
+	font-size: 22px; 
+	color: #FE4263; 
+	font-weight: bold; 
+	text-align: left;
+}
+
+.footer-div .footer-content{
+	text-align: left; 
+	font-size: 18px; 
+	color: white;
+}
+
+.footer-div i{
+	margin-right: 10px;
+}
+
+.footer-div hr{
+	border: 1px solid white;
+}
+
+.copyright-div{
+	display: flex; 
+	justify-content: center;
+}
+
+.copyright-div p{
+	color: white;
+}
+
+#myModal{
+	padding-right: 0px !important;
+}
+
+.modal-dialog{
+	max-width: unset !important; 
+	width: 50% !important;
+}
+
+.modal-header{
+	display: flex; 
+	background-color: #FE4263; 
+	color: white;
+}
+
+.modal-header button{
+	text-shadow: unset; 
+	color: white !important; 
+	font-size: 26px; opacity: 1;
+}
+
+.modal-body p{
+	margin-bottom: 7px;
+}
+
+.modal-body .row-2,
+.modal-body .row-3{
+	margin-top: 15px;
+}
+
+#btnupdate{
+	padding: 5px 15px; 
+	border-radius: 5px; 
+	background-color: #343853; 
+	border: 1px solid #343853; 
+	color: white;
+}
+
+#btnclose{
+	padding: 5px 15px; 
+	border-radius: 5px; 
+	background-color: #FE4263; 
+	border: 1px solid #FE4263; 
+	color: white;
+}
+
+#accordion .card-link{
+	color: black;
+}
+
+#accordion .card-body{
+	font-weight: normal;
+}
+
+.faq-container{
+	margin-top: 30px; 
+	font-weight: bold;
+}
+
+.faq-container p{
+	font-size: 36px; 
+	color: #FE4263; 
+	text-align: center;
+}
+
+.schedule-container{
+	margin-top: 30px;
+}
+
+.schedule-text{
+	font-size: 36px; 
+	color: #FE4263; 
+	text-align: center; 
+	font-weight: bold;
+}
+
+.date-text{
+	background-color: #FE4263; 
+	color: white; 
+	padding: 10px; 
+	font-weight: bold; 
+	font-size: 20px;
+}
+
+.topic-text{
+	color: black; 
+	font-weight: 700; 
+	color: #FE4263; 
+	margin-bottom: 5px;
+}
+
+.speaker-text, .session-text{
+	color: black; 
+	font-weight: 600; 
+	margin-bottom: 5px;
+}
+
+.audience-text{
+	color: black; 
+	font-weight: 600;
+}
+
+.speaker-text a{
+	color: #FE4263;
+}
+
+.speakers-container{
+	margin-top: 30px;
+}
+
+.speakers-list-text{
+	font-size: 36px; 
+	color: #FE4263; 
+	text-align: center; 
+	font-weight: bold;
+}
+
+.speakers-row-2{
+	margin-top: 20px !important;
+}
+
+.speakers-container .card-container{
+	width: 100%; 
+	height: 400px;
+}
+
+.speakers-container .card{
+	width: 100%; 
+	height: 100%; 
+	transition: transform 1s ease-in-out; 
+	transform-style: preserve-3d;
+}
+
+.front img{
+	border-radius: 50%;
+}
+
+.front p{
+	font-size: 26px; 
+	margin-top: 10px;
+}
+
+.back p{
+	font-size: 18px; 
+	padding-left: 20px; 
+	padding-right: 20px; 
+	text-align: left;
+}
+
+@media (max-width: 952px){
+	label.logo{
+		font-size: 26px;
+		padding-left: 50px;
+	}
+
+	label.logo a{
+		color: white !important;
+	}
+	nav ul li a{
+		font-size: 20px;
+	}
+	#myModal .modal-dialog{
+		padding: 0px !important;
+		width: 85% !important;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+}
+
+@media (max-width: 768px){
+	.checkbtn{
+		display: block;
+	}
+	ul{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background-color: #343853;
+		top: 80px;
+		left: -100%;
+		text-align: center;
+		transition: all .5s;
+	}
+	nav ul li{
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+	}
+	a:hover, a.active{
+		background: none;
+		color: #FE4263 !important;
+	}
+	#check:checked ~ ul{
+		left: 0;
+		z-index: 1;
+	}
+
+	.card-container{
+		margin-bottom: 15px;
+	}
+
+	.speakers-row-1, .speakers-row-2{
+		margin: 0px !important;
+	}
+
+	.last-name-div, .email-id-div{
+		margin-top: 15px !important;
+	}
+}
+
+@media (max-width: 1400px){
+	.tsc-text{
+		font-size: 26px !important;
+	}
+
+	.register-btn{
+		padding: 10px !important;
+	}
+
+	.when-div, .where-div{
+		font-size: 16px !important;
+	}
+}

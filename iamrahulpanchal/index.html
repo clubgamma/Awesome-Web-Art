@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Tech Summit Conference</title>
+
+	<meta charset="utf-8"/>
+	<meta name="viewport" content= "width=device-width, initial-scale=1.0, user-scalable=no">
+
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css"> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha512-bnIvzh6FU75ZKxp0GXLH9bewza/OIw6dLVh9ICg0gogclmYGguQJWl8U30WpbsGTqbIiAwxTsbe76DErLq5EDQ==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha512-znmTf4HNoF9U6mfB6KlhAShbRvbt4CvCaHoNV0gyssfToNQ/9A0eNdUbvsSwOIUoJdMjFG2ndSvr0Lo3ZpsTqQ==" crossorigin="anonymous" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha512-jCaU0Dp3IbMDlZ6f6dSEQSnOrSsugG6F6YigRWnagi7HoOLshF1kwxLT4+xCZRgQsTNqpUKj6WmWOxsu9l3URA==" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha512-L7MWcK7FNPcwNqnLdZq86lTHYLdQqZaz5YcAgE+5cnGmlw8JT03QB2+oxL100UeB6RlzZLUxCGSS4/++mNZdxw==" crossorigin="anonymous" />
+
+
+
+
+</head>
+<body>
+	<nav>
+		<input type="checkbox" id="check">
+		<label for="check" class="checkbtn">
+			<i class="fas fa-bars"></i>
+		</label>
+		<label class="logo"><a href="index.html">Demo<strong>Website</strong></a></label>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="speakers.html">Speakers</a></li>
+			<li><a href="schedule.html">Schedule</a></li>
+			<li><a href="faq.html">FAQ</a></li>
+		</ul>
+	</nav>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 conference-div">
+				<img src="resources/images/conference.png">
+			</div>
+			<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 details-div">
+				<p class="tsc-text">Tech Summit Conference</p>
+				<button type="button" class="register-btn" data-toggle="modal" data-target="#myModal">Register Now</button>
+				<div class="when-where">
+					<div class="when-div">
+						<p>WHEN</p>
+						<p><span><i class="fas fa-calendar-alt"></i></span>April 30, 2020</p>
+					</div>
+					<div class="where-div">
+						<p>WHERE</p>
+						<p><span><i class="fas fa-map-marker-alt"></i></span>Andheri, Mumbai</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr />
+	</div>
+
+	<div class="container qna-div">
+		<div class="row">
+			<div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 qna-details">
+				<p class="text-header">Why Tech Summit Conference?</p>
+				<p class="text-content">It’s time for an evolution. Senior marketing executives are truly focused on one thing: technology and its effective use to create, manage, deliver, and scale enterprise content and marketing. Tech Summit wants to keep pace with industry leaders and push our entire community forward.</p>
+			</div>
+
+			<div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 qna-details">
+				<p class="text-header">Who should attend?</p>
+				<p class="text-content">VPs, senior directors and directors in marketing, digital marketing, marketing innovation, marketing technology, demand generation, marketing operations, customer advocacy, customer experience, and ecommerce, as well as CMOs, CDOs, CTOs, CCOs, and anyone else working at the convergence point of content.</p>
+			</div>
+
+			<div class="col-md-4 col-lg-4 col-xs-12 col-sm-12 qna-details">
+				<p class="text-header">What will be answered?</p>
+				<p class="text-content">The biggest questions you have: How do we ensure our business is using or preparing for the right content and marketing technology innovations? How do we fill our customers’ needs for epic experiences? How do we use content and technology to help us in the ever-changing marketing landscape? How do we sort through the thousands of opportunities available to us?</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container-fluid footer-div">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-6 col-xs-12 col-sm-12 inner-div">
+					<p class="footer-header">About Us</p>
+					<p class="footer-content">We are an enthusiastic and innovative bunch who aim to achieve new heights of success and glory. We are a group of geeks very passionate and committed to our work. As a famous owner advisor Chris Grosser said "Opportunities don't happen. You create them."</p>
+				</div>
+				<div class="col-md-3 col-lg-3 col-xs-12 col-sm-12 inner-div">
+					<p class="footer-header">Keep Connected</p>
+					<p class="footer-content"><span><i class="fab fa-facebook"></i></span>Like Us on Facebook</p>
+					<p class="footer-content"><span><i class="fab fa-twitter"></i></span>Follow Us on Twitter</p>
+					<p class="footer-content"><span><i class="fab fa-instagram"></i></span>Follow Us on Instagram</p>
+				</div>
+				<div class="col-md-3 col-lg-3 col-xs-12 col-sm-12 inner-div">
+					<p class="footer-header">Contact Us</p>
+					<p class="footer-content"><span><i class="fas fa-home"></i></span>Andheri, Mumbai</p>
+					<p class="footer-content"><span><i class="fas fa-phone"></i></span>+91 99999 99999</p>
+					<p class="footer-content"><span><i class="far fa-envelope"></i></span>support@example.com</p>
+				</div>
+			</div>
+			<hr />
+			<div class="row copyright-div">
+				<p>Copyright &copy; 2020 Rahul Panchal. All Rights Reserved</p>
+			</div>
+		</div>
+	</div>
+
+  	<div class="modal fade" id="myModal" role="dialog">
+	    <div class="modal-dialog">
+	      <div class="modal-content">
+	        <div class="modal-header">
+	          <h4 class="modal-title">Registration Form</h4>
+	          <button type="button" class="close" data-dismiss="modal">&times;</button>
+	        </div>
+	        <div class="modal-body">
+	          <div class="row row-1">
+	          	<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+	          		<p>First Name :</p>
+	          		<input type="text" name="" class="form-control">
+	          	</div>
+	          	<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 last-name-div">
+	          		<p>Last Name :</p>
+	          		<input type="text" name="" class="form-control">
+	          	</div>
+	          </div>
+  	          <div class="row row-2">
+	          	<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+	          		<p>Address :</p>
+	          		<input type="text" name="" class="form-control">
+	          	</div>
+	          	<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 email-id-div">
+	          		<p>Email ID :</p>
+	          		<input type="text" name="" class="form-control">
+	          	</div>
+	          </div>
+  	          <div class="row row-3">
+	          	<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+	          		<p>Phone :</p>
+	          		<input type="text" name="" class="form-control">
+	          	</div>
+	          </div>
+	        </div>
+	        <div class="modal-footer">
+	        	<button type="button" id="btnupdate">Update</button>
+	          	<button type="button" id="btnclose" data-dismiss="modal">Close</button>
+	        </div>
+	      </div>
+	      
+	    </div>
+  	</div>
+
+	<script type="text/javascript">
+		const currentLocation = location.href;
+		const menuItem = document.querySelectorAll('a');
+		const menuLength = menuItem.length
+		for(let i=0; i<menuLength; i++){
+			if(menuItem[i].href === currentLocation){
+				menuItem[i].className = "active"
+			}
+		}
+	</script>
+
+</body>
+</html> 
