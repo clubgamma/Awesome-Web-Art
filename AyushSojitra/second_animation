@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *{
+            margin: 0; 
+            padding: 0;
+            }
+
+            .main{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            width: 100%;
+            height: 100vh;
+            }
+            .card{
+            width: 300px; 
+            height: 400px;
+            display: flex; justify-content: center;
+            align-items: center; flex-direction: column;
+            position: relative;
+            background-color: rgb(193, 223, 240);
+            border: 2px solid black; overflow: hidden;
+            }
+            .card h2{
+            margin-bottom: 10px;
+            }
+            .card p{
+            margin-bottom: 10px;
+            }
+
+            .card::before{
+            content: "HO"; 
+            width: 50%;
+            height: 100%; 
+            background: linear-gradient(to right, #d16ba5,#c77769, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec);
+            position: absolute;
+            left: 0;
+            top: 0;
+            font-size: 100px;   
+            display: flex;
+            color: white;
+            justify-content: flex-end; 
+            align-items: center;
+            transition: all 0.5s;
+            }
+            .card::after{ 
+                content: "LA";
+                width: 50%; 
+                height: 100%;
+                background: linear-gradient(to right, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa,#5ff6f1);
+                position: absolute;
+                top: 0; 
+                right: 0;
+                Font-size: 100px;
+                display: flex; 
+                color: white;
+                align-items: center; 
+                transition: all 0.5s;
+            }
+            .card:hover::before{
+                transform: translateX(-100%);
+            }
+            .card:hover::after{ 
+                transform: translatex(100%);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <div class="card">
+            <h2>HELLO!!</h2>
+            <p>I AM AYUSH SOJITRA.</p>
+            <p>I STUDY IN CHARUSAT UNIVERSITY.</p>
+            <p>I AM A ML ENTHUSIAST.</p>
+            <p>I LOVE PLAYING FOOTBALL.</p>
+            <p>THANK YOU. </p>
+            </div>
+        </div>
+    </body>
+</html>
