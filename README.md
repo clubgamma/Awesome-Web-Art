@@ -32,6 +32,8 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 |---|---|---|
 | <img src="https://github.com/clubgamma/Awesome-Web-Art/blob/master/yashpaneliya/developer.gif" width=80% height=70%> | [Find the code here](https://github.com/clubgamma/Awesome-Web-Art/tree/master/yashpaneliya) | [Yash Paneliya](https://github.com/yashpaneliya) |
 | <img src="iamrahulpanchal/resources/images/screencapture.png" width=80% height=auto> | [Find the code here](https://github.com/iamrahulpanchal/tech-summit-conference-demo-website) | [Rahul Panchal](https://github.com/iamrahulpanchal) |
+| <img src="https://user-images.githubusercontent.com/58872848/94771184-475a9180-03d4-11eb-8aa8-6b0c167fc4c9.jpg" width=80% height=70%> | [Find the code here](https://github.com/krish-pabani/Awesome-Web-Art/blob/master/krish-pabani/animation4.html) | [Krish Pabani](https://github.com/krish-pabani) |
+| <img src="https://user-images.githubusercontent.com/58872848/94772145-9dc8cf80-03d6-11eb-90fc-8c3507ce5d42.gif" width=80% height=70%> | [Find the code here](https://github.com/krish-pabani/Awesome-Web-Art/blob/master/krish-pabani/animation1.html) | [Krish Pabani](https://github.com/krish-pabani) |
 
 
 # Things to keep in mind
