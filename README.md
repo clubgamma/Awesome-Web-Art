@@ -54,7 +54,7 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 | <img src="https://github.com/imjp19/Awesome-Web-Art/blob/master/imjp19/ezgif.com-gif-maker%20(2).gif" width=70% height=70%> | [Find the code here](https://github.com/imjp19/Awesome-Web-Art/blob/master/imjp19/button-hover.html) | [Jay Patel](https://github.com/imjp19) |
 
 
->>>>>>> 2c92a5d3f23626bc15bc53ddbe0801d65819d534
+
 # Things to keep in mind
 
   - **Before creating any Pull Request, please register yourself at [Hacktoberfest's Official Website](https://hacktoberfest.digitalocean.com/)**
