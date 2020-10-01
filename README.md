@@ -31,6 +31,7 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 | Art💖 | Code📃 | Artist😎 |
 |---|---|---|
 | <img src="https://github.com/clubgamma/Awesome-Web-Art/blob/master/yashpaneliya/developer.gif" width=80% height=70%> | [Find the code here](https://github.com/clubgamma/Awesome-Web-Art/tree/master/yashpaneliya) | [Yash Paneliya](https://github.com/yashpaneliya) |
+| <img src="https://user-images.githubusercontent.com/42127477/94778156-4df00580-03e2-11eb-8885-781e413a9213.gif" width=80% height=70%> | [Find the code here](https://github.com/YashMakadiya123/Awesome-Web-Art/blob/YashMakadiya123-3D_Animation_revolve/YashMakadiya123/3D-Animation_revolve.html) | [Yash Makadiya](https://github.com/YashMakadiya123) |
 | <img src="https://user-images.githubusercontent.com/61018483/94776026-90afde80-03de-11eb-99f2-03158475dc0f.gif" width=80% height=70%> | [Find the code here](https://github.com/darshvaghasia12/Awesome-Web-Art/blob/master/darshvaghasia12/FrameAnimation.html) | [Darsh Vaghasia](https://github.com/darshvaghasia12) |
 | <img src="https://user-images.githubusercontent.com/58872848/94771184-475a9180-03d4-11eb-8aa8-6b0c167fc4c9.jpg" width=80% height=70%> | [Find the code here](https://github.com/krish-pabani/Awesome-Web-Art/blob/master/krish-pabani/animation4.html) | [Krish Pabani](https://github.com/krish-pabani) |
 | <img src="https://user-images.githubusercontent.com/58872848/94772145-9dc8cf80-03d6-11eb-90fc-8c3507ce5d42.gif" width=80% height=70%> | [Find the code here](https://github.com/krish-pabani/Awesome-Web-Art/blob/master/krish-pabani/animation1.html) | [Krish Pabani](https://github.com/krish-pabani) |
@@ -40,7 +41,6 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 | <img src="https://user-images.githubusercontent.com/58872848/94771184-475a9180-03d4-11eb-8aa8-6b0c167fc4c9.jpg" width=80% height=70%> | [Find the code here](https://github.com/krish-pabani/Awesome-Web-Art/blob/master/krish-pabani/animation4.html) | [Krish Pabani](https://github.com/krish-pabani) |
 | <img src="https://user-images.githubusercontent.com/58872848/94772145-9dc8cf80-03d6-11eb-90fc-8c3507ce5d42.gif" width=80% height=70%> | [Find the code here](https://github.com/krish-pabani/Awesome-Web-Art/blob/master/krish-pabani/animation1.html) | [Krish Pabani](https://github.com/krish-pabani) |
 | <img src="https://user-images.githubusercontent.com/53337926/94776372-41b67900-03df-11eb-8f26-41ae66edddab.gif" width=80% height=70%> | [Find the code here](https://github.com/MananJoshimj/Awesome-Web-Art/blob/MananJoshimj-3D-Animation-1/MananJoshimj/3D%20Animation.html) | [Manan Joshi](https://github.com/MananJoshimj) |
-
 
 # Things to keep in mind
 
