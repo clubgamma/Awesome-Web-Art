@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <html>
     <head>
         <meta charset="utf-8">
@@ -39,46 +38,4 @@
 
         </script>
     </body>
-=======
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Clock-White-UI</title>
-        <link rel="stylesheet" href="style1.css">
-
-    </head>
-    <body>
-        <div class="clock">
-            <div class="hour">
-                <div class="hr" id="hr"></div>
-            </div>
-            <div class="min">
-                <div class="mn" id="mn"></div>
-            </div>
-            <div class="sec">
-                <div class="sc" id="sc"></div>
-            </div>
-
-        </div>
-        <script type="text/javascript">
-        const deg =6;
-        const hr=document.querySelector('#hr');
-        const mn=document.querySelector('#mn');
-        const sc=document.querySelector('#sc');
-        
-        setInterval(() =>{
-        let day=new Date();
-        let hh =day.getHours() * 30;
-        let mm=day.getMinutes() * deg;
-        let ss=day.getSeconds() * deg;
-
-        hr.style.transform = `rotateZ(${(hh)+(mm/12)}deg)`;
-        mn.style.transform = `rotateZ(${mm}deg)`;
-        sc.style.transform = `rotateZ(${ss}deg)`;
-    })
-        
-
-        </script>
-    </body>
->>>>>>> 2c92a5d3f23626bc15bc53ddbe0801d65819d534
 </html>
