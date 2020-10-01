@@ -39,7 +39,7 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 | <img src="https://user-images.githubusercontent.com/58872848/94771184-475a9180-03d4-11eb-8aa8-6b0c167fc4c9.jpg" width=80% height=70%> | [Find the code here](https://github.com/krish-pabani/Awesome-Web-Art/blob/master/krish-pabani/animation4.html) | [Krish Pabani](https://github.com/krish-pabani) |
 | <img src="https://user-images.githubusercontent.com/58872848/94772145-9dc8cf80-03d6-11eb-90fc-8c3507ce5d42.gif" width=80% height=70%> | [Find the code here](https://github.com/krish-pabani/Awesome-Web-Art/blob/master/krish-pabani/animation1.html) | [Krish Pabani](https://github.com/krish-pabani) |
 | <img src="https://user-images.githubusercontent.com/53337926/94776372-41b67900-03df-11eb-8f26-41ae66edddab.gif" width=80% height=70%> | [Find the code here](https://github.com/MananJoshimj/Awesome-Web-Art/blob/MananJoshimj-3D-Animation-1/MananJoshimj/3D%20Animation.html) | [Manan Joshi](https://github.com/MananJoshimj) |
-| <img src="https://github.com/imjp19/Awesome-Web-Art/blob/master/imjp19/ezgif.com-gif-maker.gif" width=80% height=70%> | [Find the code here](https://github.com/imjp19/Awesome-Web-Art/blob/master/imjp19/login-signup-animation.html) | [Jay Patel](https://github.com/imjp19) |
+| <img src="https://github.com/imjp19/Awesome-Web-Art/blob/master/imjp19/ezgif.com-gif-maker.gif" width=80% height=70%> | [Find the code here](https://github.com/imjp19/Awesome-Web-Art/blob/master/imjp19/index.html) | [Jay Patel](https://github.com/imjp19) |
 
 
 
