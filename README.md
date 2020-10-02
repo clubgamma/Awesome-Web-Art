@@ -69,6 +69,7 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 | <img src="https://github.com/HetGalia/Awesome-Web-Art/blob/master/HetGalia/tic-tac-toe/Tic%20Tac%20Toe.gif" width=80% height=70%> | [Find the code here](https://github.com/HetGalia/Awesome-Web-Art/tree/master/HetGalia/tic-tac-toe) | [HetGalia](https://github.com/HetGalia) |
 | <img src="https://user-images.githubusercontent.com/71244798/94947480-5ab44c80-04fb-11eb-9eea-9689703fc136.gif" width=80% height=70%> | [Find the code here](https://github.com/omdhimar28/Awesome-Web-Art/blob/master/omdhimar28/Block.html) | [Om Dhimar](https://github.com/omdhimar28) |
 | <img src="https://user-images.githubusercontent.com/71244798/94949902-59851e80-04ff-11eb-8226-f8ee009e0e73.gif" width=80% height=70%> | [Find the code here](https://github.com/omdhimar28/Awesome-Web-Art/blob/master/omdhimar28/Box.html) | [Om Dhimar](https://github.com/omdhimar28) |
+| <img src="https://user-images.githubusercontent.com/71244798/94952463-ab2fa800-0503-11eb-921c-846a3d675986.gif" width=80% height=70%> | [Find the code here](https://github.com/omdhimar28/Awesome-Web-Art/blob/master/omdhimar28/Ladder.html) | [Om Dhimar](https://github.com/omdhimar28) |
 
 
 
