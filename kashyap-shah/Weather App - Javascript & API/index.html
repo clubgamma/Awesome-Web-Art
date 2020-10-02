@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Weather App</title>
+	<link rel = "icon" type = "image/png" href = "icons/icon.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!--Social Symbols-->
+	<link href='https://fonts.googleapis.com/css?family=Sarala' rel='stylesheet'>
+</head>
+<body onload="setTimeout(loadingFunction,3000)">
+	<!--PRELOADER-->
+	<div id="loading"></div>
+
+	<!--HEADER-->
+	<header class="heading">
+			<object data="icons/chancerain.png"></object>
+			<object data="icons/clear.png"></object>
+			WEATHER APP
+			<object data="icons/nt_clear.png"></object>
+			<object data="icons/mostlycloudy.png"></object>
+	</header>
+
+	<!--MAIN-->
+	<main>
+		<!--IN YOUR LOCATION FROM SENSORS-->
+		<div class="container">
+			<div class="app-title"><p>In Your Location From Sensors</p></div>
+			<div class="notification"></div>
+			<div class="weather-container1">
+				<div class="weather-icon"><img src="icons/unknown.png" alt=""></div>
+				<div class="temperature-value"><p>- &#176;<span>C</span></p></div><br>
+				<div class="temperature-description"><p> - </p></div>
+				<div class="location"><p></p></div>
+			</div>
+		</div>
+		<br><br>
+
+		<!--FOR THE CITY YOU ENTER-->
+		<div class="container">
+			<div class="app-title"><p>For The City You Enter</p></div>
+			<div class="weather-container2"><br>
+				<div class="input">
+				    <input type="text" placeholder="Enter the city" class="input_text">
+				    <input type="submit" value="Submit" class="submit">
+				</div>
+				<div class="display">
+					<div class="weatherIcon"><img src="icons/unknown.png" alt=""></div>
+				    <h1 class="name" id="name">-</h1>
+				    <p class="temp"></p>
+				    <p class="desc"></p>
+				</div>
+			</div>
+		</div>
+		<br><br>
+
+		<!--TEMPERATURE FORMULAS-->
+		<div class="container2">
+			<div class="app-title2"><p>Temperature formulas</p></div>
+			<div class="weather-container3"><br>
+				<div class="conversion">
+					<table>
+						<tr>
+							<th>Conversion</th>
+							<th>Formula</th>
+						</tr>
+						<tr>
+							<td>Celcius To Fahrenheit</td>
+							<td>(0&#176;C &#215; 9/5) + 32 = 32&#176;F</td>
+						</tr>
+						<tr>
+							<td>Celcius To Kelvin</td>
+							<td>0&#176;C + 273.15 = 273.15K</td>
+						</tr>
+						<tr>
+							<td>Fahrenheit To Celcius</td>
+							<td>(0&#176;F - 32) &#215; 5/9 = -17.78&#176;C</td>
+						</tr>
+						<tr>
+							<td>Fahrenheit To Kelvin</td>
+							<td>(0&#176;F - 32) &#215; 5/9 + 273.15 = 255.372 K</td>
+						</tr>
+						<tr>
+							<td>Kelvin To Celcius</td>
+							<td>0 K - 273.15 = -273.1&#176;C</td>
+						</tr>
+						<tr>
+							<td>Kelvin To Fahrenheit</td>
+							<td>(0 K - 273.15) &#215; 9/5 + 32 = -459.7&#176;F</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</main>
+	<br>
+
+	<!--FOOTER-->
+	<footer>
+		<div class="footer">
+		<a href="https://www.facebook.com/profile.php?id=100009430533610" target="_blank" title="Facebook"><i class="fa fa-facebook-official" style="font-size:36px"></i></a>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    <a href="https://www.instagram.com/kashyapshah09/?fbclid=IwAR1h15Tdk1-IEy6qTiPfU-6MHbt9RdsHFW1KIl9nq4MLVxQxsrzQHmPwMKA" target="_blank" title="Instagram"><i class="fa fa-instagram" style="font-size:36px"></i></a>
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    <a href="https://github.com/kashyap-shah?fbclid=IwAR2AiF8UruVoO8jmrttOfBKtc4UjVvXkwKsHNmtecu-wfwZRpeduN8FcRv4" target="_blank" title="GitHub"><i class="fa fa-github" style="font-size:36px"></i></a>
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    <a href="https://www.linkedin.com/in/kashyap-shah-635648177?fbclid=IwAR1J2se2F28xbC--tmgF_vf9cfYIdC0STlY-DBy2NAj5UoVLceJK6xcL3x4" target="_blank" title="LinkedIn"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a>
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    <a href="https://twitter.com/kashyapshah09?fbclid=IwAR0XP-SB58HqnYHq_kWFu4PHQUwe0dQSU6Vnd9e1f8Kw_GYzHGAQmxa-3es" target="_blank" title="Twitter"><i class="fa fa-twitter" style="font-size:36px"></i></a><br>
+	    <p><a href="https://github.com/kashyap-shah/Weather-App">Source Code</a></p>
+		</div>
+	</footer>
+	<script src="app.js"></script>
+</body>
+</html>
