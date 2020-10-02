@@ -58,6 +58,8 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 | <img src="https://github.com/thevrajshah/Awesome-Web-Art/blob/master/thevrajshah/Glitch.gif" width=80% height=70%>                 | [Find the code here](https://github.com/thevrajshah/Awesome-Web-Art/blob/master/thevrajshah/Glitch.html)                                                        | [Vraj Shah](https://github.com/thevrajshah)          |
 | <img src="https://github.com/thevrajshah/Awesome-Web-Art/blob/master/thevrajshah/Name.gif" width=80% height=70%>                 | [Find the code here](https://github.com/thevrajshah/Awesome-Web-Art/blob/master/thevrajshah/Name.html)                                                        | [Vraj Shah](https://github.com/thevrajshah)          |
 | <img src="https://user-images.githubusercontent.com/59108190/94911376-aba84e80-04c3-11eb-9695-a1f9fac8a9d6.gif" width=80% height=70%> | [Find the code here](https://github.com/SmitShah090/Awesome-Web-Art/tree/master/SmitShah090/Music%20Player) | [Smit Shah](https://github.com/SmitShah090) |
+| <img src="https://github.com/kashyap-shah/Awesome-Web-Art/blob/master/kashyap-shah/loading-animation/Loading_Animation.gif" width=80% height=70%> | [Find the code here](https://github.com/kashyap-shah/Awesome-Web-Art/blob/master/kashyap-shah/loading-animation/animation.html) | [Kashyap Shah](https://github.com/kashyap-shah) |
+
 
 # Things to keep in mind
 
