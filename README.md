@@ -62,7 +62,7 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 | <img src="https://user-images.githubusercontent.com/59108190/94916007-7acc1780-04cb-11eb-94ae-027dd8f3c309.gif" width=80% height=70%> | [Find the code here](https://github.com/SmitShah090/Awesome-Web-Art/blob/master/SmitShah090/Music%20Player/Edu_Hub) | [Smit Shah](https://github.com/SmitShah090) |
 | <img src="https://user-images.githubusercontent.com/61206322/94914206-35f2b180-04c8-11eb-8b39-d8a63f79358a.gif" width=80% height=70%> | [Find the code here](https://github.com/JayMandaviya/Awesome-Web-Art/blob/master/JayMandaviya/button.html) | [Jay Mandaviya](https://github.com/JayMandaviya) |
 | <img src="https://user-images.githubusercontent.com/61206322/94916259-ffb73100-04cb-11eb-92ac-56f9c7bd838c.gif" width=80% height=70%> | [Find the code here](https://github.com/JayMandaviya/Awesome-Web-Art/blob/master/JayMandaviya/cloth.html) | [Jay Mandaviya](https://github.com/JayMandaviya) |
-
+| <img src="https://user-images.githubusercontent.com/61206322/94917413-1b233b80-04ce-11eb-89fa-64b5ec716555.gif" width=80% height=70%> | [Find the code here](https://github.com/JayMandaviya/Awesome-Web-Art/blob/master/JayMandaviya/Name.html) | [Jay Mandaviya](https://github.com/JayMandaviya) |
 
 # Things to keep in mind
 
