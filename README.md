@@ -21,10 +21,10 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 
 # Tools to make your work easier
 
-  - Video to GIF converter
-    - [ezgif](https://ezgif.com/video-to-gif)
-    - [zamzar](https://www.zamzar.com/convert/mp4-to-gif/)
-    - [online-convert](https://image.online-convert.com/convert/mp4-to-gif)
+- Video to GIF converter
+  - [ezgif](https://ezgif.com/video-to-gif)
+  - [zamzar](https://www.zamzar.com/convert/mp4-to-gif/)
+  - [online-convert](https://image.online-convert.com/convert/mp4-to-gif)
 
 # Art Work
 
@@ -54,18 +54,19 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 | <img src="https://github.com/sanketchaudhari10/Awesome-Web-Art/blob/master/sanketchaudhari10/animationpagegif.gif" width=80% height=70%> | [Find the code here](https://github.com/sanketchaudhari10/Awesome-Web-Art/blob/master/sanketchaudhari10/animationpage.html) | [Sanket Chaudhari](https://github.com/sanketchaudhari10) |
 | <img src="https://github.com/imjp19/Awesome-Web-Art/blob/master/imjp19/ezgif.com-gif-maker%20(2).gif" width=80% height=70%> | [Find the code here](https://github.com/imjp19/Awesome-Web-Art/blob/master/imjp19/button-hover.html.html) | [Jay Patel](https://github.com/imjp19) |
 | <img src="https://github.com/jerry2501/Awesome-Web-Art/blob/master/jerry2501/jerry2501.gif" width=80% height=70%> | [Find the code here](https://github.com/jerry2501/Awesome-Web-Art/blob/master/jerry2501/index.html) | [Jignesh Kukadiya](https://github.com/jerry2501) |
-
-
+| <img src="https://github.com/thevrajshah/Awesome-Web-Art/blob/master/thevrajshah/Accordian.gif" width=80% height=70%>                 | [Find the code here](https://github.com/thevrajshah/Awesome-Web-Art/blob/master/thevrajshah/Accordian.html)                                                        | [Vraj Shah](https://github.com/thevrajshah)          |
+| <img src="https://github.com/thevrajshah/Awesome-Web-Art/blob/master/thevrajshah/Glitch.gif" width=80% height=70%>                 | [Find the code here](https://github.com/thevrajshah/Awesome-Web-Art/blob/master/thevrajshah/Glitch.html)                                                        | [Vraj Shah](https://github.com/thevrajshah)          |
+| <img src="https://github.com/thevrajshah/Awesome-Web-Art/blob/master/thevrajshah/Name.gif" width=80% height=70%>                 | [Find the code here](https://github.com/thevrajshah/Awesome-Web-Art/blob/master/thevrajshah/Name.html)                                                        | [Vraj Shah](https://github.com/thevrajshah)          |
 
 # Things to keep in mind
 
-  - **Before creating any Pull Request, please register yourself at [Hacktoberfest's Official Website](https://hacktoberfest.digitalocean.com/)**
-  - **Club Gamma swags will only be shipped inside India**
-  - **If a maintainer reports behavior that’s not in line with the project’s code of conduct, then you will be ineligible to participate.**
-  - **Only first 30 contributors who successfully submit minimum 3 PRs to any of the projects in Club Gamma organization will get Club Gamma swags**
-  - **To get Digital Ocean swags, you just have to make minimum 4 PRs to any open source projects on GitHub**
-  - **If a maintainer reports your pull request as spam, it will not be counted towards your participation in Hacktoberfest.**
-  
+- **Before creating any Pull Request, please register yourself at [Hacktoberfest's Official Website](https://hacktoberfest.digitalocean.com/)**
+- **Club Gamma swags will only be shipped inside India**
+- **If a maintainer reports behavior that’s not in line with the project’s code of conduct, then you will be ineligible to participate.**
+- **Only first 30 contributors who successfully submit minimum 3 PRs to any of the projects in Club Gamma organization will get Club Gamma swags**
+- **To get Digital Ocean swags, you just have to make minimum 4 PRs to any open source projects on GitHub**
+- **If a maintainer reports your pull request as spam, it will not be counted towards your participation in Hacktoberfest.**
+
 ## Contact Us
 
 **To know more about us, visit [official website](https://clubgamma.github.io/) of Club Gamma.**
@@ -80,4 +81,5 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 ![](https://img.shields.io/badge/Fork-If_you_found_interesting-%23FF0000.svg?&style=flat&logoColor=white&color=white)<br>
 <a href="https://github.com/clubgamma/Awesome-Web-Art/issues/new"><img src="https://img.shields.io/badge/Query-Ask_Us_Anything-blue"/></a><br>
 <br>
+
 </div>
