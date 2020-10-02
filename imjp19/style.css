@@ -5,7 +5,7 @@ body{
 	font-size: 15px;
 	line-height: 1.7;
 	color: #fff;
-	background: #12f8ad;
+	background: #d71e3d;
 	overflow-x: hidden;
 }
 a { cursor: pointer; transition: all 200ms linear; }
@@ -14,7 +14,7 @@ a:hover { text-decoration: none; }
 
 .link { color: #fff; }
 
-.link:hover { color: #12f8ad; }
+.link:hover { color: #d71e3d; }
 
 p { font-weight: 500; font-size: 14px; line-height: 1.7; }
 
@@ -57,7 +57,7 @@ h6 span{
     width: 36px;
     height: 36px;
     border-radius: 50%;
-    color: #12f8ad;
+    color: #d71e3d;
     background-color: #2a2b38;
     font-family: 'unicons';
     content: '\eb4f';
@@ -157,7 +157,7 @@ h6 span{
     font-size: 24px;
     line-height: 48px;
     text-align: left;
-    color: #12f8ad;
+    color: #d71e3d;
     transition: all 200ms linear;
 }
 .form-group input:-ms-input-placeholder  {
@@ -211,19 +211,19 @@ h6 span{
     -ms-flex-pack: center;
     text-align: center;
     border: none;
-    background-color: #12f8ad;
+    background-color: #d71e3d;
     color: #fff;
     box-shadow: 0 8px 24px 0 rgba(18, 248, 173,.2);
 }
 .btn:active,
 .btn:focus{  
   background-color: #fff;
-  color: #12f8ad;
+  color:#d71e3d;
   box-shadow: 0 8px 24px 0 rgba(255,255,255,.2);
 }
 .btn:hover{  
   background-color: #fff;
-  color:#12f8ad;
+  color:#d71e3d;
   box-shadow: 0 8px 24px 0 rgba(255,255,255,.2);
 }
 .logo {
