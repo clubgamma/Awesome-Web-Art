@@ -55,7 +55,7 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 | <img src="https://github.com/jerry2501/Awesome-Web-Art/blob/master/jerry2501/jerry2501.gif" width=80% height=70%> | [Find the code here](https://github.com/jerry2501/Awesome-Web-Art/blob/master/jerry2501/index.html) | [Jignesh Kukadiya](https://github.com/jerry2501) |
 | <img src="https://github.com/thevrajshah/Awesome-Web-Art/blob/master/thevrajshah/Accordian.gif" width=80% height=70%>                 | [Find the code here](https://github.com/thevrajshah/Awesome-Web-Art/blob/master/thevrajshah/Accordian.html)                                                        | [Vraj Shah](https://github.com/thevrajshah)          |
 | <img src="https://github.com/thevrajshah/Awesome-Web-Art/blob/master/thevrajshah/Glitch.gif" width=80% height=70%>                 | [Find the code here](https://github.com/thevrajshah/Awesome-Web-Art/blob/master/thevrajshah/Glitch.html)                                                        | [Vraj Shah](https://github.com/thevrajshah)          |
-
+| <img src="https://github.com/thevrajshah/Awesome-Web-Art/blob/master/thevrajshah/Name.gif" width=80% height=70%>                 | [Find the code here](https://github.com/thevrajshah/Awesome-Web-Art/blob/master/thevrajshah/Name.html)                                                        | [Vraj Shah](https://github.com/thevrajshah)          |
 
 # Things to keep in mind
 
