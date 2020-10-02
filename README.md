@@ -28,9 +28,6 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 
 # Art Work
 
-
-
-=======
 | Art💖 | Code📃 | Artist😎 |
 |---|---|---|
 | <img src="https://github.com/clubgamma/Awesome-Web-Art/blob/master/yashpaneliya/developer.gif" width=80% height=70%> | [Find the code here](https://github.com/clubgamma/Awesome-Web-Art/tree/master/yashpaneliya) | [Yash Paneliya](https://github.com/yashpaneliya) |
