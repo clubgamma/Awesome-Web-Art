@@ -64,7 +64,9 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 | <img src="https://user-images.githubusercontent.com/61206322/94916259-ffb73100-04cb-11eb-92ac-56f9c7bd838c.gif" width=80% height=70%> | [Find the code here](https://github.com/JayMandaviya/Awesome-Web-Art/blob/master/JayMandaviya/cloth.html) | [Jay Mandaviya](https://github.com/JayMandaviya) |
 | <img src="https://user-images.githubusercontent.com/61206322/94917413-1b233b80-04ce-11eb-89fa-64b5ec716555.gif" width=80% height=70%> | [Find the code here](https://github.com/JayMandaviya/Awesome-Web-Art/blob/master/JayMandaviya/Name.html) | [Jay Mandaviya](https://github.com/JayMandaviya) |
 | <img src="https://github.com/kashyap-shah/Awesome-Web-Art/blob/master/kashyap-shah/Snake_Game.gif" width=80% height=70%> | [Find the code here](https://github.com/kashyap-shah/Awesome-Web-Art/tree/master/kashyap-shah/Snake%20Game%20-%20JavaScript) | [Kashyap Shah](https://github.com/kashyap-shah) |
+| <img src="https://github.com/HetGalia/Awesome-Web-Art/blob/master/HetGalia/Pendulum/Pendulum.gif" width=80% height=70%> | [Find the code here](https://github.com/HetGalia/Awesome-Web-Art/tree/master/HetGalia/Pendulum) | [HetGalia](https://github.com/HetGalia) |
 | <img src="https://github.com/kashyap-shah/Awesome-Web-Art/blob/master/kashyap-shah/Weather_App.gif" width=80% height=70%> | [Find the code here](https://github.com/kashyap-shah/Awesome-Web-Art/tree/master/kashyap-shah/Weather%20App%20-%20Javascript%20%26%20API) | [Kashyap Shah](https://github.com/kashyap-shah) |
+
 
 # Things to keep in mind
 
