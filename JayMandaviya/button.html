@@ -1,0 +1,549 @@
+<html>
+    <head>
+      <style>
+        body {
+    max-width: 600px;
+    margin: 4.8rem auto;
+    background: #acd4e4;
+    font-family: tahoma, helvetica neue, helvetica, arial, sans-serif;
+    background: -webkit-gradient(linear, left top, right top, from(#acd4e4), to(#bbe0df));
+    background: linear-gradient(to right, #acd4e4, #bbe0df);
+    text-align: center;
+  }
+  
+  .btn-container {
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .btn {
+    width: 6.4rem;
+    line-height: 6.4rem;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    margin: 1.6rem;
+    font-size: 0.8rem;
+    border: none;
+    padding: 0;
+    position: relative;
+    outline: none;
+  }
+  
+  .btn--shockwave.is-active {
+    -webkit-animation: shockwaveJump 1s ease-out infinite;
+            animation: shockwaveJump 1s ease-out infinite;
+  }
+  .btn--shockwave.is-active:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    -webkit-animation: shockwave 1s .65s ease-out infinite;
+            animation: shockwave 1s .65s ease-out infinite;
+  }
+  .btn--shockwave.is-active:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    -webkit-animation: shockwave 1s .5s ease-out infinite;
+            animation: shockwave 1s .5s ease-out infinite;
+  }
+  
+  @-webkit-keyframes shockwaveJump {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    40% {
+      -webkit-transform: scale(1.08);
+              transform: scale(1.08);
+    }
+    50% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+    }
+    55% {
+      -webkit-transform: scale(1.02);
+              transform: scale(1.02);
+    }
+    60% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
+  @keyframes shockwaveJump {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+    40% {
+      -webkit-transform: scale(1.08);
+              transform: scale(1.08);
+    }
+    50% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+    }
+    55% {
+      -webkit-transform: scale(1.02);
+              transform: scale(1.02);
+    }
+    60% {
+      -webkit-transform: scale(0.98);
+              transform: scale(0.98);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @-webkit-keyframes shockwave {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      box-shadow: 0 0 2px rgba(0, 0, 0, 0.15), inset 0 0 1px rgba(0, 0, 0, 0.15);
+    }
+    95% {
+      box-shadow: 0 0 50px rgba(0, 0, 0, 0), inset 0 0 30px rgba(0, 0, 0, 0);
+    }
+    100% {
+      -webkit-transform: scale(2.25);
+              transform: scale(2.25);
+    }
+  }
+  @keyframes shockwave {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      box-shadow: 0 0 2px rgba(0, 0, 0, 0.15), inset 0 0 1px rgba(0, 0, 0, 0.15);
+    }
+    95% {
+      box-shadow: 0 0 50px rgba(0, 0, 0, 0), inset 0 0 30px rgba(0, 0, 0, 0);
+    }
+    100% {
+      -webkit-transform: scale(2.25);
+              transform: scale(2.25);
+    }
+  }
+  .btn--jump.is-active {
+    -webkit-animation: .4s jump ease infinite alternate;
+            animation: .4s jump ease infinite alternate;
+  }
+  
+  @-webkit-keyframes jump {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    }
+    100% {
+      -webkit-transform: scale(1.05);
+              transform: scale(1.05);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+  }
+  
+  @keyframes jump {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    }
+    100% {
+      -webkit-transform: scale(1.05);
+              transform: scale(1.05);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+  }
+  .btn--pulse.is-active {
+    background: transparent;
+  }
+  .btn--pulse.is-active:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    background: #fff;
+    -webkit-animation: pulse 0.4s ease infinite alternate;
+            animation: pulse 0.4s ease infinite alternate;
+    z-index: -1;
+  }
+  
+  @-webkit-keyframes pulse {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+      border-radius: 50%;
+    }
+    100% {
+      -webkit-transform: scale(1.05);
+              transform: scale(1.05);
+      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+      border-radius: 45%;
+    }
+  }
+  
+  @keyframes pulse {
+    0% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+      border-radius: 50%;
+    }
+    100% {
+      -webkit-transform: scale(1.05);
+              transform: scale(1.05);
+      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+      border-radius: 45%;
+    }
+  }
+  .btn--blink.is-active {
+    background: transparent;
+  }
+  .btn--blink.is-active:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    background: #fff;
+    -webkit-animation: blink 1.33s ease-out infinite;
+            animation: blink 1.33s ease-out infinite;
+    z-index: -1;
+  }
+  
+  @-webkit-keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    20% {
+      opacity: .5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    20% {
+      opacity: .5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .btn--wiggle.is-active {
+    -webkit-animation: 1s wiggle ease infinite;
+            animation: 1s wiggle ease infinite;
+  }
+  
+  @-webkit-keyframes wiggle {
+    0% {
+      -webkit-transform: rotate(-3deg);
+              transform: rotate(-3deg);
+      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    }
+    20% {
+      -webkit-transform: rotate(20deg);
+              transform: rotate(20deg);
+    }
+    40% {
+      -webkit-transform: rotate(-15deg);
+              transform: rotate(-15deg);
+    }
+    60% {
+      -webkit-transform: rotate(5deg);
+              transform: rotate(5deg);
+    }
+    90% {
+      -webkit-transform: rotate(-1deg);
+              transform: rotate(-1deg);
+    }
+    100% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    }
+  }
+  
+  @keyframes wiggle {
+    0% {
+      -webkit-transform: rotate(-3deg);
+              transform: rotate(-3deg);
+      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    }
+    20% {
+      -webkit-transform: rotate(20deg);
+              transform: rotate(20deg);
+    }
+    40% {
+      -webkit-transform: rotate(-15deg);
+              transform: rotate(-15deg);
+    }
+    60% {
+      -webkit-transform: rotate(5deg);
+              transform: rotate(5deg);
+    }
+    90% {
+      -webkit-transform: rotate(-1deg);
+              transform: rotate(-1deg);
+    }
+    100% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    }
+  }
+  .btn--wut.is-active {
+    -webkit-animation: 1s fullRotation ease infinite;
+            animation: 1s fullRotation ease infinite;
+  }
+  .btn--wut.is-active:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    background: #fff;
+    -webkit-animation: wutBefore 0.8s .4s ease-out infinite;
+            animation: wutBefore 0.8s .4s ease-out infinite;
+    z-index: -1;
+  }
+  .btn--wut.is-active:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    background: #fff;
+    -webkit-animation: wut 0.8s ease-out infinite;
+            animation: wut 0.8s ease-out infinite;
+    z-index: -1;
+  }
+  
+  @-webkit-keyframes fullRotation {
+    0% {
+      -webkit-transform: rotate(-3deg) scale(1) translate3d(0, 0, 0);
+              transform: rotate(-3deg) scale(1) translate3d(0, 0, 0);
+    }
+    20% {
+      -webkit-transform: rotate(50deg) translate3d(0, 5px, 0);
+              transform: rotate(50deg) translate3d(0, 5px, 0);
+    }
+    40% {
+      -webkit-transform: rotate(-15deg) scale(1.1) translate3d(0, 8px, -5px);
+              transform: rotate(-15deg) scale(1.1) translate3d(0, 8px, -5px);
+    }
+    60% {
+      -webkit-transform: rotate(5deg) translate3d(5px, -8px, -80px);
+              transform: rotate(5deg) translate3d(5px, -8px, -80px);
+    }
+    90% {
+      -webkit-transform: rotate(-1deg) translate3d(0, 0, 0);
+              transform: rotate(-1deg) translate3d(0, 0, 0);
+    }
+    100% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+  }
+  
+  @keyframes fullRotation {
+    0% {
+      -webkit-transform: rotate(-3deg) scale(1) translate3d(0, 0, 0);
+              transform: rotate(-3deg) scale(1) translate3d(0, 0, 0);
+    }
+    20% {
+      -webkit-transform: rotate(50deg) translate3d(0, 5px, 0);
+              transform: rotate(50deg) translate3d(0, 5px, 0);
+    }
+    40% {
+      -webkit-transform: rotate(-15deg) scale(1.1) translate3d(0, 8px, -5px);
+              transform: rotate(-15deg) scale(1.1) translate3d(0, 8px, -5px);
+    }
+    60% {
+      -webkit-transform: rotate(5deg) translate3d(5px, -8px, -80px);
+              transform: rotate(5deg) translate3d(5px, -8px, -80px);
+    }
+    90% {
+      -webkit-transform: rotate(-1deg) translate3d(0, 0, 0);
+              transform: rotate(-1deg) translate3d(0, 0, 0);
+    }
+    100% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+  }
+  @-webkit-keyframes wut {
+    0% {
+      border-radius: 50%;
+      -webkit-transform: skew(0) translate3d(0, 0px, 0px);
+              transform: skew(0) translate3d(0, 0px, 0px);
+    }
+    10% {
+      -webkit-transform: translate3d(0, -10px, 0);
+              transform: translate3d(0, -10px, 0);
+    }
+    50% {
+      border-radius: 50%;
+    }
+    80% {
+      border-radius: 30%;
+      -webkit-transform: translate3d(20, 10px, 20px);
+              transform: translate3d(20, 10px, 20px);
+    }
+    100% {
+      border-radius: 50%;
+      -webkit-transform: skew(0) translate3d(0, 0px, 0px);
+              transform: skew(0) translate3d(0, 0px, 0px);
+    }
+  }
+  @keyframes wut {
+    0% {
+      border-radius: 50%;
+      -webkit-transform: skew(0) translate3d(0, 0px, 0px);
+              transform: skew(0) translate3d(0, 0px, 0px);
+    }
+    10% {
+      -webkit-transform: translate3d(0, -10px, 0);
+              transform: translate3d(0, -10px, 0);
+    }
+    50% {
+      border-radius: 50%;
+    }
+    80% {
+      border-radius: 30%;
+      -webkit-transform: translate3d(20, 10px, 20px);
+              transform: translate3d(20, 10px, 20px);
+    }
+    100% {
+      border-radius: 50%;
+      -webkit-transform: skew(0) translate3d(0, 0px, 0px);
+              transform: skew(0) translate3d(0, 0px, 0px);
+    }
+  }
+  @-webkit-keyframes wutBefore {
+    0% {
+      border-radius: 50%;
+      -webkit-transform: translate3d(0, 0px, 0px);
+              transform: translate3d(0, 0px, 0px);
+    }
+    10% {
+      -webkit-transform: translate3d(-10px, 10px, 0);
+              transform: translate3d(-10px, 10px, 0);
+    }
+    70% {
+      border-radius: 50%;
+    }
+    80% {
+      border-radius: 30%;
+      -webkit-transform: translate3d(-20px, -10px, -20px);
+              transform: translate3d(-20px, -10px, -20px);
+    }
+    100% {
+      border-radius: 50%;
+      -webkit-transform: translate3d(0, 0px, 0px);
+              transform: translate3d(0, 0px, 0px);
+    }
+  }
+  @keyframes wutBefore {
+    0% {
+      border-radius: 50%;
+      -webkit-transform: translate3d(0, 0px, 0px);
+              transform: translate3d(0, 0px, 0px);
+    }
+    10% {
+      -webkit-transform: translate3d(-10px, 10px, 0);
+              transform: translate3d(-10px, 10px, 0);
+    }
+    70% {
+      border-radius: 50%;
+    }
+    80% {
+      border-radius: 30%;
+      -webkit-transform: translate3d(-20px, -10px, -20px);
+              transform: translate3d(-20px, -10px, -20px);
+    }
+    100% {
+      border-radius: 50%;
+      -webkit-transform: translate3d(0, 0px, 0px);
+              transform: translate3d(0, 0px, 0px);
+    }
+  }
+  
+      </style>
+    </head>
+    <body>
+        <script>
+          document.addEventListener("click", click);
+
+function click(e) {
+  let el;
+
+  el = e.target;
+
+  if (el !== e.currentTarget) {
+    if (el.nodeName === "BUTTON") {
+      if (el.classList.contains("is-active")) {
+        el.classList.remove("is-active");
+      } else {
+        el.classList.add("is-active");
+      }
+    }
+  }
+  event.stopPropagation();
+}
+
+        </script>
+        <p><strong>Click</strong> a button to activate its animation.</p>
+<div class='btn-container'>
+  <button class='btn btn--shockwave is-active'>
+    Shockwave
+  </button>
+  <button class='btn btn--jump'>
+    Jump
+  </button>
+  <button class='btn btn--pulse'>
+    Pulse
+  </button>
+  <button class='btn btn--blink'>
+    Blink
+  </button>
+  <button class='btn btn--wiggle'>
+    Wiggle
+  </button>
+  <button class='btn btn--wut'>
+    Hatching Alien
+  </button>
+</div>
+
+    </body>
+</html>

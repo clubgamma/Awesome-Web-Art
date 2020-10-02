@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Snake Game</title>
+	<link rel = "icon" type = "image/png" href = "images/icon.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!--Social Symbols-->
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+<body onload="setTimeout(loadingFunction,1800)">
+	<!--PRELOADER-->
+	<div id="loading"><p>Searching Food Near You...&#128270;<p></div>
+
+	<!--HEADER-->
+	<header class="heading">
+		&#128013; SNAKE GAME &#128013;
+	</header>
+
+	<!--MAIN-->
+	<main>
+		<canvas id="snake" width="608" height="608"></canvas><br>
+		<button onclick="location.reload(true)" class="button">Play Again</button>
+        <script src="game.js"></script>
+	</main>
+
+	<!--FOOTER-->
+	<footer>
+		<div class="footer">
+		<a href="https://www.facebook.com/profile.php?id=100009430533610" target="_blank" title="Facebook"><i class="fa fa-facebook-official" style="font-size:36px"></i></a>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    <a href="https://www.instagram.com/kashyapshah09" target="_blank" title="Instagram"><i class="fa fa-instagram" style="font-size:36px"></i></a>
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    <a href="https://github.com/kashyap-shah" target="_blank" title="GitHub"><i class="fa fa-github" style="font-size:36px"></i></a>
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    <a href="https://www.linkedin.com/in/kashyap-shah-635648177" target="_blank" title="LinkedIn"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a>
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	    <a href="https://twitter.com/kashyapshah09" target="_blank" title="Twitter"><i class="fa fa-twitter" style="font-size:36px"></i></a><br>
+	    <p><a href="https://github.com/kashyap-shah/Snake-Game" target="_blank">Source Code</a></p>
+		</div>
+	</footer>
+</body>
+</html>

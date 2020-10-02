@@ -1,0 +1,74 @@
+body{
+    background:#111111;
+    background-image:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/41114/plan1.png');
+    background-size:cover;
+  }
+  
+  .frame{
+    background-image:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/41114/plan1.png');
+    border-radius:3px;
+    box-shadow:0 0 50px black;
+    height:698px;
+    left:50%;
+    margin-bottom:300px;
+    overflow:hidden;
+    position:relative;
+    top:100px;
+    transform:translateX(-50%);
+    width:550px;
+  }
+  
+  img{
+    position:absolute;
+    transform-origin:50%;
+    width:100%;
+    transition:2s ease;
+  }
+  
+  // HOVER ANIMATION
+  
+  .frame{
+    &:hover .pic1{
+      transform:scale(1.2);
+      -webkit-filter:blur(4px);
+    }
+    &:hover .pic2{
+      transform:scale(1.4);
+      -webkit-filter:blur(2px);
+    }
+    &:hover .pic3{
+      transform:scale(1.6);
+      -webkit-filter:blur(1px);
+    }
+    &:hover .pic4{
+      transform:scale(1.8);
+    }
+    &:hover .pic5{
+      transform:scale(2);
+    }
+    &:hover .mist{
+      transform:translateX(-100%);
+    }
+    &:hover .mist2{
+      transform:translateX(100%);
+    }
+  }
+  
+  .mist{
+    height:200px;
+    position:absolute;
+    top:500px;
+    width:2000px;
+    -webkit-filter:blur(2px);
+    transition:60s linear;
+  }
+  
+  .mist2{
+    height:200px;
+    position:absolute;
+    top:300px;
+    left:-100%;
+    width:2000px;
+    -webkit-filter:blur(2px);
+    transition:60s linear;
+  }

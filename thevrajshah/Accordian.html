@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,500;0,700;1,500&display=swap"
+    />
+    <title>Accordian</title>
+    <script
+      src="https://kit.fontawesome.com/123f0f79ae.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        --accent: #20b2aa;
+        --light: #fafafa;
+        --dark: #777;
+      }
+      html {
+        font-size: 10px;
+        text-rendering: optimizeLegibility;
+      }
+      body {
+        font-family: "Barlow", sans-serif;
+        font-size: 24px;
+        color: #111;
+        background: #eee;
+        line-height: 1.25;
+      }
+      h1,
+      h2,
+      h3,
+      h4 {
+        font-family: "Barlow", sans-serif;
+      }
+      a {
+        -webkit-text-emphasis: none;
+        text-emphasis: none;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: none;
+        -webkit-text-emphasis: none;
+        text-emphasis: none;
+      }
+      ul {
+        list-style: none;
+      }
+
+      button {
+        border: none;
+      }
+      container {
+        display: block;
+        margin: 0 auto;
+        padding: 0 5%;
+        width: 100%;
+        height: 100%;
+        max-width: 1240px;
+        background: transparent;
+      }
+      section {
+        display: block;
+        margin: 0 auto;
+        padding: 8rem 5%;
+        width: 100%;
+        max-width: 1240px;
+      }
+      #Card {
+        margin: 2rem auto;
+        padding: 1.5rem 3rem;
+        width: 75rem;
+        min-width: 20rem;
+        background-color: #fff;
+        border-radius: 2rem;
+        -webkit-box-shadow: 0 3px 25px rgba(0, 0, 0, 0.05);
+        box-shadow: 0 3px 25px rgba(0, 0, 0, 0.05);
+        -webkit-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+      }
+      #Card h5 {
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+      #Card:hover {
+        -webkit-box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+      }
+      #Card a {
+        display: block;
+        line-height: 1.5;
+        font: 700 1.6rem "Barlow", sans-serif;
+        color: #555;
+        transition: all 0.3 ease-in-out;
+      }
+      #Card a:hover {
+        color: var(--accent);
+        text-decoration: underline;
+      }
+      .accordian {
+        cursor: pointer;
+        transition: all 0.3 ease-in-out;
+      }
+      .cardHead {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+      }
+      .panel {
+        height: 0;
+        opacity: 0;
+        background-color: #fafafa;
+        overflow: hidden;
+        border-radius: 10px;
+        transition: all 0.2s ease-in-out;
+      }
+      .panel.open {
+        height: 100%;
+        opacity: 1;
+        margin-top: 1rem;
+        padding: 1rem;
+      }
+      .fa-react {
+        color: #62dafc;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="Card">
+      <div class="accordion">
+        <div class="cardHead">
+          <h5>React</h5>
+          <span class="fab fa-react"></span>
+        </div>
+      </div>
+      <div class="panel">
+        <a href="https://www.youtube.com/watch?v=Ke90Tje7VS0" target="__blank"
+          >React Tutorial for Beginners by Mosh Hamedani - Youtube</a
+        >
+        <a href="https://www.youtube.com/watch?v=dGcsHMXbSOA" target="__blank"
+          >React Tutorial For Beginners by Dev Ed - Youtube</a
+        >
+        <a href="https://www.youtube.com/watch?v=Law7wfdg_ls" target="__blank"
+          >React Router Tutorial by Dev Ed - Youtube</a
+        >
+      </div>
+    </div>
+  </body>
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function () {
+        /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.classList.contains("open")) {
+          panel.classList.remove("open");
+        } else {
+          panel.classList.add("open");
+        }
+      });
+    }
+    function openTopics(evt, topicName) {
+      var i, tabcontent, tablinks;
+
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+
+      document.getElementById(topicName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+  </script>
+</html>
