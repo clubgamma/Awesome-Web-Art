@@ -46,6 +46,7 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 | <img src="https://user-images.githubusercontent.com/63587007/94777672-788d8e80-03e1-11eb-9ce7-a16cc6563d00.gif" width=80% height=70%> | [Find the code here](https://github.com/AyushSojitra/Awesome-Web-Art/blob/master/AyushSojitra/second_animation) | [Ayush Sojitra](https://github.com/AyushSojitra) |
 | <img src="https://user-images.githubusercontent.com/53337926/94776372-41b67900-03df-11eb-8f26-41ae66edddab.gif" width=80% height=70%> | [Find the code here](https://github.com/MananJoshimj/Awesome-Web-Art/blob/MananJoshimj-3D-Animation-1/MananJoshimj/3D%20Animation.html) | [Manan Joshi](https://github.com/MananJoshimj) |
 | <img src="https://github.com/imjp19/Awesome-Web-Art/blob/master/imjp19/ezgif.com-gif-maker.gif" width=80% height=70%> | [Find the code here](https://github.com/imjp19/Awesome-Web-Art/blob/master/imjp19/login-signup-animation.html) | [Jay Patel](https://github.com/imjp19) |
+| <img src="https://github.com/upasanadeka/Awesome-Web-Art/blob/master/upasanadeka/Hnet.com-image.gif" width=80% height=70%> | [Find the code here](https://github.com/upasanadeka/Awesome-Web-Art/blob/master/upasanadeka/index.html) | [Upasana Deka](https://github.com/upasanadeka) |
 
 
 
