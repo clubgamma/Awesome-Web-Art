@@ -1,0 +1,237 @@
+body{
+    margin: 0;
+    font-family: 'Sarala';
+    background: #f4a41c;
+}
+
+/*PRELOADER*/
+#loading{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background: #fff url('icons/preloader.gif') no-repeat center;
+    z-index: 99999;
+}
+
+/*HEADER*/
+.heading{
+    letter-spacing: 2px;
+    height: 100%;
+    padding: 15px;
+    top: -5px;
+    text-align: center;
+    color: #fff;
+    background: #000;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom:20px; 
+}
+
+/*MAIN*/
+.container{
+    box-shadow: 2px 2px 5px 5px #222;
+    width: 60%;    
+    background-color: #FFF;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-bottom : 50px;
+}
+
+.app-title{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px 10px 0 0;
+}
+
+.app-title p{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: bold;
+    color: #293251;
+}
+
+/*In Your Location From Sensors*/
+.weather-container1{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10px;
+    border-top: 2px solid #3498DB;
+    border-bottom: 2px solid #3498DB;
+    background-color: #D6EAF8; 
+}
+
+.notification{
+    background-color: #f8d7da;
+    display: none;
+}
+
+.notification p{
+    color: #721c24;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.weather-icon{
+    width: 100%;
+    height: 128px;
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.temperature-value{
+    width: 100%;
+    height:60px;
+}
+
+.temperature-value p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.temperature-value span{
+    color: #293251;
+    font-size: 0.5em;
+}
+
+.temperature-description p{
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.location p{
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+/*For The City You Enter*/
+.weather-container2{
+    width: 100%;
+    height: 100%;
+
+    padding-bottom: 10px;
+    border-top: 2px solid #3498DB;
+    border-bottom: 2px solid #3498DB;
+    background-color: #D6EAF8;
+}
+
+.input{
+  text-align: center;
+}
+
+.name{
+    color: #000;
+}
+
+.weatherIcon{
+    text-align: center;
+    width: 100%;
+    height: 128px;
+}
+
+input[type="submit"]{
+  background: #e7e7e7;
+  font-weight:bold;
+  font-size: 20px;
+}
+
+.input input[type="text"]{
+  width: 200px;
+  background: #e7e7e7;
+  font-weight:bold;
+  font-size: 20px;
+}
+
+.name{
+    text-align: center;
+}
+
+.temp{
+    text-align: center;
+}
+
+.desc{
+    text-align: center;
+}
+
+/*Temperature Formulas*/
+.container2{
+    height: 100%;
+    width: 60%;    
+    background-color: #FFF;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 2px 2px 5px 5px #222;
+    border-radius: 10px;
+    padding-bottom : 50px;
+}
+
+.weather-container3{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 2%;
+    border-top: 2px solid #3498DB;
+    border-bottom: 2px solid #3498DB;
+    background-color: #D6EAF8;
+}
+
+.app-title2{
+    text-align: center;
+    width: 100%;
+    height: 60%;
+
+    border-radius: 10px 10px 0 0;
+}
+
+.app-title2 p{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: bold;
+    color: #293251;
+}
+
+table{
+    margin:auto;
+    text-align: center;
+    border-collapse: collapse;
+    border: 2px solid #000;
+}
+
+table td, th{
+    padding: 5px;
+    border: 1px solid #000;
+}
+
+/*FOOTER*/
+.footer{
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+    height: 80px;
+    background-color: #000;
+    color: #fff;
+}
+
+.fa{
+    color: #fff;
+}
+
