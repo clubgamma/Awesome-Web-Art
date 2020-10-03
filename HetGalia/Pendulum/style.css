@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.base {
+  width: 500px;
+  border-top: 5px solid gray;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  padding: 0 0 30px;
+}
+
+.holder {
+  width: 30px;
+  height: 20px;
+  background: black;
+  margin: auto;
+  border-radius: 0 0 50% 50%;
+}
+
+.thread {
+  display: inline-block;
+  width: 2px;
+  height: 200px;
+  background: black;
+  border-radius: 5px;
+  position: relative;
+  transform-origin: 50% 0;
+  animation: moveIt 2.5s ease-in-out infinite;
+}
+
+.thread:after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: brown;
+  border: 2px solid white;
+  top: -4.5px;
+  left: -3.5px;
+}
+
+.knob {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: -18px;
+  left: -4.5px;
+  border: 2px solid rgba(255, 255, 255, .5);
+  border-radius: 50%;
+  border-bottom: 2px solid transparent;
+}
+
+.pendulum {
+  width: 20px;
+  height: 20px;
+  background: -moz-radial-gradient(circle at 70% 35%, white, #112244 30%, #223344 50%);
+  background: -webkit-radial-gradient(circle at 70% 35%, white, #112244 30%, #223344 50%);
+  background: -o-radial-gradient(circle at 70% 35%, white, #112244 30%, #223344 50%);
+  background: -ms-radial-gradient(circle at 70% 35%, white, #112244 30%, #223344 50%);
+  background: radial-gradient(circle at 70% 35%, white, #112244 30%, #223344 50%);
+  border-radius: 50%;
+  position: absolute;
+  bottom: -10px;
+  left: -9px;
+}
+
+.shadow {
+  width: 30px;
+  height: 15px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  margin: 50px auto 0;
+  animation: moveShade 1.25s ease-in-out alternate infinite;
+}
+@-webkit-keyframes fade-in-out {
+  0% {
+    letter-spacing: -0.5em;
+    filter: blur(12px) opacity(0%);
+  }
+  30% {
+    letter-spacing: 0;
+    filter: blur(0) opacity(1);
+  }
+  70% {
+    letter-spacing: 0;
+    filter: blur(0) opacity(1);
+  }
+  100% {
+    letter-spacing: -0.5em;
+    filter: blur(12px) opacity(0%);
+  }
+}
+
+.blurOut {
+  color: #aba88c;
+  text-shadow: 2px 2px 5px #eedd45;
+  font-family: 'Brush Script MT', cursive;
+  font-weight: bold;
+  font-size: 60px;
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+  animation-name: fade-in-out;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes moveIt {
+  0%, 100% {
+    transform: rotate(45deg);
+  }
+  50% {
+    transform: rotate(-45deg);
+  }
+}
+
+@keyframes moveShade {
+  0% {
+    transform: translateX(-220px) scale(1.4, .5);
+    filter: blur(20px);
+  }
+  50% {
+    filter: blur(3px);
+  }
+  100% {
+    transform: translateX(220px) scale(1.4, .5);
+    filter: blur(20px);
+  }
+}
