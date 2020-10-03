@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		/* 
+** Change this if you need to modify
+** the amount of lines displayed
+*/
+/*
+** Leave these unless you want
+** to open a whole can of worms
+*/
+/*
+** Set up the experiment
+*/
+html {
+  background-color:black;
+  height: 100%;
+}
+
+body {
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: flex;
+}
+
+/*
+** Apply styles to the parent element
+*/
+.Words {
+  margin: 0 auto;
+  padding: 80px 0;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font-size: 68px;
+  font-weight: 900;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  -webkit-font-smoothing: antialiased;
+  -webkit-font-kerning: normal;
+  -webkit-text-size-adjust: 100%;
+}
+
+/*
+** Apply common styles to each line of text
+*/
+.Words-line {
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+}
+.Words-line:nth-child(odd) {
+  -webkit-transform: skew(60deg, -30deg) scaleY(0.66667);
+          transform: skew(60deg, -30deg) scaleY(0.66667);
+}
+.Words-line:nth-child(even) {
+  -webkit-transform: skew(0deg, -30deg) scaleY(1.33333);
+          transform: skew(0deg, -30deg) scaleY(1.33333);
+}
+.Words-line:nth-child(1) {
+  left: 29px;
+}
+.Words-line:nth-child(2) {
+  left: 58px;
+}
+.Words-line:nth-child(3) {
+  left: 87px;
+}
+.Words-line:nth-child(4) {
+  left: 116px;
+}
+.Words-line:nth-child(5) {
+  left: 145px;
+}
+.Words-line:nth-child(6) {
+  left: 174px;
+}
+.Words-line:nth-child(7) {
+  left: 203px;
+}
+
+/*
+** Fine-grained text styles
+*/
+p {
+  height: 50px;
+  line-height: 100px;
+  padding: 0 10px;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .4s ease-in-out;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+/*
+** The hover interaction
+*/
+.Words:hover p {
+  -webkit-transform: translate3d(0, -90px, 0);
+          transform: translate3d(0, -90px, 0);
+}
+	</style>
+</head>
+
+<body>
+<ul class="Words">
+  <li class="Words-line">
+    <p>&nbsp;</p>
+    <p>Ladder Of</p>
+  </li>
+  <li class="Words-line">
+    <p>Ladder Of</p>
+    <p>Success</p>
+  </li>
+  <li class="Words-line">
+    <p>Success</p>
+    <p>Is Not</p>
+  </li>
+  <li class="Words-line">
+    <p>Is Not</p>
+    <p>Easy</p>
+  </li>
+  <li class="Words-line">
+    <p>Easy</p>
+    <p>To</p>
+  </li>
+  <li class="Words-line">
+    <p>To</p>
+    <p>Climb</p>
+  </li>
+  <li class="Words-line">
+    <p>Climb</p>
+    <p>&nbsp;</p>
+  </li>
+</ul>
+</body>
+</html>

@@ -21,10 +21,10 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 
 # Tools to make your work easier
 
-  - Video to GIF converter
-    - [ezgif](https://ezgif.com/video-to-gif)
-    - [zamzar](https://www.zamzar.com/convert/mp4-to-gif/)
-    - [online-convert](https://image.online-convert.com/convert/mp4-to-gif)
+- Video to GIF converter
+  - [ezgif](https://ezgif.com/video-to-gif)
+  - [zamzar](https://www.zamzar.com/convert/mp4-to-gif/)
+  - [online-convert](https://image.online-convert.com/convert/mp4-to-gif)
 
 # Art Work
 
@@ -50,19 +50,47 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 | <img src="https://user-images.githubusercontent.com/42127477/94800086-bc908b80-0401-11eb-9726-4f3c361a7364.gif" width=80% height=70%> | [Find the code here](https://github.com/YashMakadiya123/Awesome-Web-Art/blob/YashMakadiya123-3D-Animation_cubeslider/YashMakadiya123/3D-Animation_cubeslider.html) | [Yash Makadiya](https://github.com/YashMakadiya123) |
 | <img src="https://user-images.githubusercontent.com/63587007/94796454-72f17200-03fc-11eb-9002-bd70b82242f5.gif" width=80% height=70%> | [Find the code here](https://github.com/AyushSojitra/Awesome-Web-Art/blob/master/AyushSojitra/search_button_animated.html) | [Ayush Sojitra](https://github.com/AyushSojitra) |
 | <img src="https://github.com/imjp19/Awesome-Web-Art/blob/master/imjp19/ezgif.com-gif-maker.gif" width=80% height=70%> | [Find the code here](https://github.com/imjp19/Awesome-Web-Art/blob/master/imjp19/login-signup-animation.html) | [Jay Patel](https://github.com/imjp19) |
+| <img src="https://github.com/upasanadeka/Awesome-Web-Art/blob/master/upasanadeka/Hnet.com-image.gif" width=80% height=70%> | [Find the code here](https://github.com/upasanadeka/Awesome-Web-Art/blob/master/upasanadeka/index.html) | [Upasana Deka](https://github.com/upasanadeka) |
 | <img src="https://github.com/smit4297/Awesome-Web-Art/blob/master/smit4297/smit4297.gif" width=80% height=70%> | [Find the code here](https://github.com/smit4297/Awesome-Web-Art/blob/master/smit4297/index.html) | [Smit Patel](https://github.com/smit4297) |
+| <img src="https://github.com/imjp19/Awesome-Web-Art/blob/master/imjp19/HOVER.gif" width=80% height=70%> | [Find the code here](https://github.com/imjp19/Awesome-Web-Art/blob/master/imjp19/button-hover.html) | [Jay Patel](https://github.com/imjp19) |
+| <img src="https://github.com/imjp19/Awesome-Web-Art/blob/master/imjp19/change-color-clock.gif" width=50% height=70%> | [Find the code here](https://github.com/imjp19/Awesome-Web-Art/blob/master/imjp19/color-change-clock.html) | [Jay Patel](https://github.com/imjp19) |
+| <img src="https://github.com/sanketchaudhari10/Awesome-Web-Art/blob/master/sanketchaudhari10/animationpagegif.gif" width=80% height=70%> | [Find the code here](https://github.com/sanketchaudhari10/Awesome-Web-Art/blob/master/sanketchaudhari10/animationpage.html) | [Sanket Chaudhari](https://github.com/sanketchaudhari10) |
 | <img src="https://github.com/imjp19/Awesome-Web-Art/blob/master/imjp19/ezgif.com-gif-maker%20(2).gif" width=80% height=70%> | [Find the code here](https://github.com/imjp19/Awesome-Web-Art/blob/master/imjp19/button-hover.html.html) | [Jay Patel](https://github.com/imjp19) |
 | <img src="https://user-images.githubusercontent.com/53337926/94891669-5c045b80-04a0-11eb-84f4-01e971863165.gif" width=80% height=70%> | [Find the code here](https://github.com/MananJoshimj/Awesome-Web-Art/blob/master/MananJoshimj/Animation3.html) | [Manan Joshi](https://github.com/MananJoshimj) |
+| <img src="https://github.com/jerry2501/Awesome-Web-Art/blob/master/jerry2501/jerry2501.gif" width=80% height=70%> | [Find the code here](https://github.com/jerry2501/Awesome-Web-Art/blob/master/jerry2501/index.html) | [Jignesh Kukadiya](https://github.com/jerry2501) |
+| <img src="https://github.com/thevrajshah/Awesome-Web-Art/blob/master/thevrajshah/Accordian.gif" width=80% height=70%> | [Find the code here](https://github.com/thevrajshah/Awesome-Web-Art/blob/master/thevrajshah/Accordian.html) | [Vraj Shah](https://github.com/thevrajshah) |
+| <img src="https://github.com/thevrajshah/Awesome-Web-Art/blob/master/thevrajshah/Glitch.gif" width=80% height=70%> | [Find the code here](https://github.com/thevrajshah/Awesome-Web-Art/blob/master/thevrajshah/Glitch.html) | [Vraj Shah](https://github.com/thevrajshah)|
+| <img src="https://github.com/thevrajshah/Awesome-Web-Art/blob/master/thevrajshah/Name.gif" width=80% height=70%> | [Find the code here](https://github.com/thevrajshah/Awesome-Web-Art/blob/master/thevrajshah/Name.html) | [Vraj Shah](https://github.com/thevrajshah)  |
+| <img src="https://github.com/thevrajshah/Awesome-Web-Art/blob/master/thevrajshah/VeggieBurger.gif" width=80% height=70%> | [Find the code here](https://github.com/thevrajshah/Awesome-Web-Art/blob/master/thevrajshah/VeggieBurger.html) | [Vraj Shah](https://github.com/thevrajshah) |
+| <img src="https://github.com/thevrajshah/Awesome-Web-Art/blob/master/thevrajshah/Mustache.gif" width=80% height=70%> | [Find the code here](https://github.com/thevrajshah/Awesome-Web-Art/blob/master/thevrajshah/Mustache.html) | [Vraj Shah](https://github.com/thevrajshah) |
+| <img src="https://user-images.githubusercontent.com/59108190/94911376-aba84e80-04c3-11eb-9695-a1f9fac8a9d6.gif" width=80% height=70%> | [Find the code here](https://github.com/SmitShah090/Awesome-Web-Art/tree/master/SmitShah090/Music%20Player) | [Smit Shah](https://github.com/SmitShah090) |
+| <img src="https://github.com/kashyap-shah/Awesome-Web-Art/blob/master/kashyap-shah/loading-animation/Loading_Animation.gif" width=80% height=70%> | [Find the code here](https://github.com/kashyap-shah/Awesome-Web-Art/blob/master/kashyap-shah/loading-animation/animation.html) | [Kashyap Shah](https://github.com/kashyap-shah) |
+| <img src="https://user-images.githubusercontent.com/59108190/94916007-7acc1780-04cb-11eb-94ae-027dd8f3c309.gif" width=80% height=70%> | [Find the code here](https://github.com/SmitShah090/Awesome-Web-Art/blob/master/SmitShah090/Music%20Player/Edu_Hub) | [Smit Shah](https://github.com/SmitShah090) |
+| <img src="https://user-images.githubusercontent.com/59108190/94919155-a225e300-04d1-11eb-9ee2-046e205bd212.gif" width=80% height=70%> | [Find the code here](https://github.com/SmitShah090/Awesome-Web-Art/blob/master/SmitShah090/Music%20Player/Foodista) | [Smit Shah](https://github.com/SmitShah090) |
+| <img src="https://user-images.githubusercontent.com/61206322/94914206-35f2b180-04c8-11eb-8b39-d8a63f79358a.gif" width=80% height=70%> | [Find the code here](https://github.com/JayMandaviya/Awesome-Web-Art/blob/master/JayMandaviya/button.html) | [Jay Mandaviya](https://github.com/JayMandaviya) |
+| <img src="https://user-images.githubusercontent.com/61206322/94916259-ffb73100-04cb-11eb-92ac-56f9c7bd838c.gif" width=80% height=70%> | [Find the code here](https://github.com/JayMandaviya/Awesome-Web-Art/blob/master/JayMandaviya/cloth.html) | [Jay Mandaviya](https://github.com/JayMandaviya) |
+| <img src="https://user-images.githubusercontent.com/61206322/94917413-1b233b80-04ce-11eb-89fa-64b5ec716555.gif" width=80% height=70%> | [Find the code here](https://github.com/JayMandaviya/Awesome-Web-Art/blob/master/JayMandaviya/Name.html) | [Jay Mandaviya](https://github.com/JayMandaviya) |
+| <img src="https://github.com/kashyap-shah/Awesome-Web-Art/blob/master/kashyap-shah/Snake_Game.gif" width=80% height=70%> | [Find the code here](https://github.com/kashyap-shah/Awesome-Web-Art/tree/master/kashyap-shah/Snake%20Game%20-%20JavaScript) | [Kashyap Shah](https://github.com/kashyap-shah) |
+| <img src="https://github.com/HetGalia/Awesome-Web-Art/blob/master/HetGalia/Pendulum/Pendulum.gif" width=80% height=70%> | [Find the code here](https://github.com/HetGalia/Awesome-Web-Art/tree/master/HetGalia/Pendulum) | [HetGalia](https://github.com/HetGalia) |
+| <img src="https://github.com/kashyap-shah/Awesome-Web-Art/blob/master/kashyap-shah/Weather_App.gif" width=80% height=70%> | [Find the code here](https://github.com/kashyap-shah/Awesome-Web-Art/tree/master/kashyap-shah/Weather%20App%20-%20Javascript%20%26%20API) | [Kashyap Shah](https://github.com/kashyap-shah) |
+| <img src="https://github.com/HetGalia/Awesome-Web-Art/blob/master/HetGalia/tic-tac-toe/Tic%20Tac%20Toe.gif" width=80% height=70%> | [Find the code here](https://github.com/HetGalia/Awesome-Web-Art/tree/master/HetGalia/tic-tac-toe) | [HetGalia](https://github.com/HetGalia) |
+| <img src="https://user-images.githubusercontent.com/71244798/94947480-5ab44c80-04fb-11eb-9eea-9689703fc136.gif" width=80% height=70%> | [Find the code here](https://github.com/omdhimar28/Awesome-Web-Art/blob/master/omdhimar28/Block.html) | [Om Dhimar](https://github.com/omdhimar28) |
+| <img src="https://user-images.githubusercontent.com/71244798/94949902-59851e80-04ff-11eb-8226-f8ee009e0e73.gif" width=80% height=70%> | [Find the code here](https://github.com/omdhimar28/Awesome-Web-Art/blob/master/omdhimar28/Box.html) | [Om Dhimar](https://github.com/omdhimar28) |
+| <img src="https://user-images.githubusercontent.com/71244798/94952463-ab2fa800-0503-11eb-921c-846a3d675986.gif" width=80% height=70%> | [Find the code here](https://github.com/omdhimar28/Awesome-Web-Art/blob/master/omdhimar28/Ladder.html) | [Om Dhimar](https://github.com/omdhimar28) |
+| <img src="https://github.com/HetGalia/Awesome-Web-Art/blob/master/HetGalia/Trail/Trail.gif" width=80% height=70%> | [Find the code here](https://github.com/HetGalia/Awesome-Web-Art/tree/master/HetGalia/Trail) | [HetGalia](https://github.com/HetGalia) |
+| ![img](madhavtripathi05/todos.gif) | [Find the code here](madhavtripathi05/todo-mt) | [Madhav Tripathi](https://github.com/madhavtripathi)     |
+| <img src="https://github.com/YASH4801/Awesome-Web-Art/blob/master/YASH4801/day-night.gif" width=80% height=90%> | [Find the code here](https://github.com/YASH4801/Awesome-Web-Art/blob/master/YASH4801/animo.html) | [Yash Narang](https://github.com/YASH4801) |
+
 
 # Things to keep in mind
 
-  - **Before creating any Pull Request, please register yourself at [Hacktoberfest's Official Website](https://hacktoberfest.digitalocean.com/)**
-  - **Club Gamma swags will only be shipped inside India**
-  - **If a maintainer reports behavior that’s not in line with the project’s code of conduct, then you will be ineligible to participate.**
-  - **Only first 30 contributors who successfully submit minimum 3 PRs to any of the projects in Club Gamma organization will get Club Gamma swags**
-  - **To get Digital Ocean swags, you just have to make minimum 4 PRs to any open source projects on GitHub**
-  - **If a maintainer reports your pull request as spam, it will not be counted towards your participation in Hacktoberfest.**
-  
+- **Before creating any Pull Request, please register yourself at [Hacktoberfest's Official Website](https://hacktoberfest.digitalocean.com/)**
+- **Club Gamma swags will only be shipped inside India**
+- **If a maintainer reports behavior that’s not in line with the project’s code of conduct, then you will be ineligible to participate.**
+- **Only first 30 contributors who successfully submit minimum 3 PRs to any of the projects in Club Gamma organization will get Club Gamma swags**
+- **To get Digital Ocean swags, you just have to make minimum 4 PRs to any open source projects on GitHub**
+- **If a maintainer reports your pull request as spam, it will not be counted towards your participation in Hacktoberfest.**
+
 ## Contact Us
 
 **To know more about us, visit [official website](https://clubgamma.github.io/) of Club Gamma.**
@@ -77,4 +105,5 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 ![](https://img.shields.io/badge/Fork-If_you_found_interesting-%23FF0000.svg?&style=flat&logoColor=white&color=white)<br>
 <a href="https://github.com/clubgamma/Awesome-Web-Art/issues/new"><img src="https://img.shields.io/badge/Query-Ask_Us_Anything-blue"/></a><br>
 <br>
+
 </div>
