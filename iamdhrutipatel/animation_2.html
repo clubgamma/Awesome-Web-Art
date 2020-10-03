@@ -1,0 +1,61 @@
+<html>
+<head>
+	<title>Loading</title>
+	<style type="text/css">
+		body {
+		  display: -webkit-box;
+		  display: -moz-box;
+		  display: -ms-flexbox;
+		  display: -webkit-flex; 
+		  display: flex;
+
+		  -webkit-box-align: center; 
+		  -moz-box-align: center;
+		  -ms-flex-align: center;
+		  -webkit-align-items: center;
+		  align-items: center;
+
+		  -webkit-box-pack: center; 
+		  -moz-box-pack: center; 
+		  -ms-flex-pack: center; 
+		  -webkit-justify-content: center;
+		  justify-content: center;
+
+		  margin: 0;
+		  height: 100%;
+		  width: 100%; 
+		   
+		  background-image: radial-gradient(circle farthest-corner at center, #003F7A 0%, #000 100%);
+		} 
+
+		h1 {
+			color: hsla(0,0%,100%);
+			font: 900 800% Baskerville, 'Palatino Linotype', Palatino, serif;	
+		}
+		
+		.load{position:absolute;top:50%;left:75.5%;transform:translate(-50%, -50%);
+		  width:100px;
+		  height:100px;
+		}
+		.load hr{border:0;margin:0;width:40%;height:40%;position:absolute;border-radius:50%;animation:spin 2s ease infinite}
+
+		.load :first-child{background:white;animation-delay:-1.5s}
+		.load :nth-child(2){background:#FDA543;animation-delay:-1s}
+		.load :nth-child(3){background:white;animation-delay:-0.5s}
+		.load :last-child{background:#FDA543}
+
+		@keyframes spin{
+		  0%,100%{transform:translate(0)}
+		  25%{transform:translate(160%)}
+		  50%{transform:translate(160%, 160%)}
+		  75%{transform:translate(0, 160%)}
+		}
+	</style>
+</head>
+<body>
+	<h1>LOADING</h1>
+	<div class="load">
+  		<hr/><hr/><hr/><hr/>
+	</div>
+</body>
+</html>

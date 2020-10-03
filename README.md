@@ -84,6 +84,8 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 | <img src="https://user-images.githubusercontent.com/50026172/94992534-36fb1000-05a8-11eb-8c48-9c2be14ccde2.gif" width=80% height=90%> | [Find the code here](https://github.com/anjali-patel21/Awesome-Web-Art/blob/master/anjali-patel21/Hello_animation.html) | [Anjali Patel](https://github.com/anjali-patel21) |
 | <img src="https://user-images.githubusercontent.com/50026172/94993018-a1fa1600-05ab-11eb-81a8-d844ff644f2f.gif" width=80% height=90%> | [Find the code here](https://github.com/anjali-patel21/Awesome-Web-Art/blob/master/anjali-patel21/loading_animation.html) | [Anjali Patel](https://github.com/anjali-patel21) |
 | <img src="https://user-images.githubusercontent.com/58872872/94993466-d8856000-05ae-11eb-82dc-d9d040ec72f6.gif" width=80% height=90%> | [Find the code here](https://github.com/iamdhrutipatel/Awesome-Web-Art/blob/master/iamdhrutipatel/animation_1.html) | [Dhruti Patel](https://github.com/iamdhrutipatel) |
+| <img src="https://user-images.githubusercontent.com/58872872/94995669-6b2cfb80-05bd-11eb-9201-dd0c243cd513.gif" width=80% height=90%> | [Find the code here](https://github.com/iamdhrutipatel/Awesome-Web-Art/blob/master/iamdhrutipatel/animation_2.html) | [Dhruti Patel](https://github.com/iamdhrutipatel) |
+| <img src="https://user-images.githubusercontent.com/58872872/94996031-c364fd00-05bf-11eb-8fe1-1814909db5e2.gif" width=80% height=90%> | [Find the code here](https://github.com/iamdhrutipatel/Awesome-Web-Art/blob/master/iamdhrutipatel/animation_3.html) | [Dhruti Patel](https://github.com/iamdhrutipatel) |
 
 # Things to keep in mind
 
