@@ -1,0 +1,61 @@
+<html>
+<head>
+    <meta charset="utf-8">
+	  <title>Devloper</title>
+	  <style type="text/css">
+	  	body
+{
+	margin: 0px;
+	padding: 0px;
+	background-color:  white;
+}
+
+.center
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.devloper
+{
+	width: 100px;
+	height:100px ;
+	background: darkblue;
+	border-radius: 50%;
+	color: #FFF;
+	text-align: center;
+	line-height: 100px;
+	font-family: verdana;
+	text-transform: uppercase;
+	animation: animate 3s linear infinite;
+
+}
+
+@keyframes animate
+{
+	0%
+	{
+		box-shadow: 0 0 0 0px rgba(255,109,75,.8), 0 0 0 0 rgba(255,109,74,.7);
+	}
+	40%
+	{
+		box-shadow: 0 0 0 100px rgba(255,109,75,0), 0 0 0 0 rgba(255,109,74,.7);
+	}
+	80%
+	{
+		box-shadow: 0 0 0 0px rgba(255,109,75,0), 0 0 0 50px rgba(255,109,74,0);
+	}
+	100%
+	{
+		box-shadow: 0 0 0 0 rgba(255,109,75,0), 0 0 0 50px rgba(255,109,74,0);
+	}
+}
+	  </style>
+</head>
+<body>
+	<div class="center">
+		<div class="devloper">Devloper</div>
+	</div>
+</body>
+</html>
