@@ -1,0 +1,11 @@
+Tables:
+1) todos
+id (int non null AutoIncrement) // Primary key
+name (TEXT null) // todo
+user (varchar(20) null) // for uniquely identifying a user
+created (DateTime auto:current timestamp if Null)
+done (TINYINT(1) ) // for tracking the status of todo
+
+2) users:
+id (int non null AutoIncrement) // Primary key
+username (varchar(20) null) // for uniquely identifying a user

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello</title>
+	<style type="text/css">
+		@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+body {
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #fef;
+}
+
+p {
+  --size: 1.5px;
+  --color: #00f;
+
+  color: transparent;
+  font-size: 200px;
+  font-family: Bree Serif;
+  background: repeating-linear-gradient(
+      -45deg,
+      var(--color),
+      var(--color) var(--size),
+      transparent var(--size),
+      transparent calc(var(--size) * 2)
+    ),
+    repeating-linear-gradient(
+      45deg,
+      var(--color),
+      var(--color) var(--size),
+      transparent var(--size),
+      transparent calc(var(--size) * 2)
+    );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-stroke: 10px;
+  position: relative;
+  left: 10px;
+  top: 10px;
+  animation: p 1s infinite alternate;
+}
+
+p::before {
+  content: "Hello!!";
+  position: absolute;
+  color: transparent;
+  background: #e45;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-stroke: 10px;
+  z-index: -1;
+  animation: p 1s infinite alternate;
+}
+
+@keyframes p {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  100% {
+    left: -10px;
+    top: -10px;
+  }
+}
+
+
+	</style>
+</head>
+<body>
+	<p>Hello!!</p>
+</body>
+</html>

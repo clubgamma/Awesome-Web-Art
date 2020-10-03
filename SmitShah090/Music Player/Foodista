@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  <!-- Footer -->
+  <header class="footer">
+        
+    <div class="footer-list">
+      <a href="#" class="footer-link">Home</a>
+          <a href="#" class="footer-link">Tours</a>
+          <a href="#" class="footer-link">About Us</a>
+          <a href="#" class="footer-link">Offer</a>
+          <a href="#" class="footer-link">Contact</a>
+
+    </div>
+
+    
+  </header>
+
+  
+    <div class="section-intro">
+      <header>
+        <h1>Foodista</h1>
+        </header>
+        <div class="link-to-book-wrapper">
+          <a class="link-to-book" href="#reservations">Book a table</a>
+        </div>
+    </div>
+
+
+    <!-- Stories -->
+    <section class="stories">
+      <div class="video-container">
+        <video class="bg-video" autoplay muted loop>
+          <source src="video.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="stories-wrapper">
+        <div class="story-bg">
+          <div class="story">
+            <img
+              src="image/1.jpg"
+              alt="Customer image"
+              class="story-image"
+            />
+            <div class="story-text">
+              <h1 class="story-heading">
+                Best Quality And Quantity food
+              </h1>
+              <p class="story-paragraph">
+                The restaurant staff is very prompt and cordial.they take their work really seriously which works in their favor.The food is also nice and quantity is also good.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="story-bg">
+          <div class="story">
+            <img
+              src="image/2.jpg"
+              alt="Customer image"
+              class="story-image"
+            />
+            <div class="story-text">
+              <h1 class="story-heading">
+                I enjoyed this great Meal
+              </h1>
+              <p class="story-paragraph">
+                This restaurant is very good taste of food and service is very fast and food quality is very good and fresh and hot and cleanness of this restaurant is very good.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Stories -->
+
+
+
+
+        <!-- Contact -->
+        <section class="contact">
+          <h1 class="contact-heading">Book Table</h1>
+          <form class="contact-form center">
+            <div class="input-group">
+              <label>Full Name *</label>
+              <input
+                type="text"
+                class="contact-input"
+                placeholder="Enter Your Name"
+              />
+            </div>
+            <div class="input-groups">
+              <div class="input-group">
+                <label>Number of people</label>
+                <input
+                  type="text"
+                  class="contact-input"
+                  placeholder="Enter  no of people"
+                />
+              </div>
+              <div class="input-group">
+                <label>Phone</label>
+                <input
+                  type="text"
+                  class="contact-input"
+                  placeholder="Enter Phone Number"
+                />
+              </div>
+            </div>
+            <div class="input-group">
+              <label>Message</label>
+              <textarea
+                class="form-textarea"
+                placeholder="Extra Need. for eg. Booking for a date,etc"
+              ></textarea>
+            </div>
+            <input type="submit" value="Book" class="form-btn" />
+          </form>
+        </section>
+        <!-- End of Contact -->
+
+        
+      <!-- Footer -->
+      <footer class="footer">
+        
+        <div class="footer-list">
+          <a href="#" class="footer-link"></a>
+          <a href="#" class="footer-link"></a>
+          <a href="#" class="footer-link"></a>
+          <a href="#" class="footer-link"></a>
+          <a href="#" class="footer-link"></a>
+
+        </div>
+
+        
+      </footer>
+      <!-- End of Footer -->
+    </div>
+      
+</body>
+</html>

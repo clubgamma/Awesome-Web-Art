@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fitness Hub</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <script type="text/javascript">
+    function valid()
+    {
+      var name = document.forms["Msg"]["Name"];
+    var email = document.forms["Msg"]["EMail"];
+    var phone = document.forms["Msg"]["Telephone"];
+    var msg = document.forms["Msg"]["Message"];
+    var regex = /[a-zA-Z]+$/;
+    var reg = /([0-9]{10})+$/;
+    if (name.value == "")
+    {
+      window.alert("Please enter your name.");
+      name.focus();
+      return false;
+    }
+
+    if(regex.test(name.value) == false)
+    {
+      window.alert("Name must be in letters only");
+      name.focus();
+      return false;
+    }
+    if (email.value == "")
+    {
+      window.alert("Please enter a valid e-mail address.");
+      email.focus();
+      return false;
+    }
+
+    if (email.value.indexOf("@", 0) < 0)
+    {
+      window.alert("Please enter a valid e-mail address."); 
+      email.focus();
+      return false;
+    }
+  
+    if (email.value.indexOf(".", 0) < 0)
+    {
+      window.alert("Please enter a valid e-mail address."); 
+      email.focus();
+      return false;
+    }
+
+    if (phone.value == "")
+    {
+      window.alert("Please enter your telephone number."); 
+      phone.focus();
+      return false;
+    }
+
+    if(reg.test(phone.value) == false)
+    {
+      window.alert("Phone No. must be in number of 10 digits");
+      phone.focus();
+      return false;
+    }
+    if (msg.value == "")
+    {
+      window.alert("Please enter a Message you want to send.");
+      name.focus();
+      return false;
+    }
+    else
+    {
+      window.alert("Message Sent Successfully..!");
+    }
+    return true;
+    }
+  </script>
+</head>
+<body>
+ 
+ <!-- Start Header  -->
+ <header>
+ 	 <div class="container">
+ 	 	<div class="logo">
+ 	 		 <a href=""> HM <span>Fitness</span></a>
+ 	 	</div>
+ 	 	<a href="javascript:void(0)" class="ham-burger">
+ 	       <span></span>
+         <span></span>
+         <span></span>
+ 	 	</a>
+ 	 	<div class="nav">
+ 	 		<ul>
+ 	 			<li><a href="#home">Home</a></li>
+ 	 			<li><a href="#about">About</a></li>
+ 	 			<li><a href="#service">Services</a></li>
+ 	 			<li><a href="#classes">Classes</a></li>
+ 	 			<li><a href="#price">Packages</a></li>
+ 	 			<li><a href="#contact">Contact</a></li>
+ 	 		</ul>
+ 	 	</div>
+ 	 </div>
+ </header>
+ <!-- End Header  -->
+
+  <!-- Start Home -->
+  <section class="home wow flash" id="home">
+  	 <div class="container"><br><br>
+  	 	  <h1 >It's <span>gym</span> time.</h1>
+  	 	  <h1 >Walk in,<br><span>STRONG</span></h1>
+        <h1> crawl out,<br><span> STRONGER</span></h1>
+  	 </div>
+  	  <!-- go down -->
+  	      <a href="#about" class="go-down">
+  	      	  <i class="fa fa-angle-down" aria-hidden="true"></i>
+  	      </a>
+  	  <!-- go down -->
+
+  </section>
+  <!-- End Home -->
+<!-- Start About -->
+  <section class="about" id="about">
+  	  <div class="container">
+  	  	  <div class="content">
+  	  	  	   <div class="box wow bounceInUp">
+  	  	  	   	   <div class="inner">
+  	  	  	   	   	   <div class="img">
+  	  	  	   	   	   	  <img src="images/about1.jpg" alt="about" />
+  	  	  	   	   	   </div>
+                       <div class="text">
+                       	   <h4>Free Consultation</h4>
+                       	   <p>Fitness Consultation Includes Short Medical Questionnaire. Short and Long Term Goal Assessment. Meal Planning and Nutritional Guidance. Custom Exercise Program Designed to Your Specific Fitness Goals. Body Composition (Circumference, Weight, Body Fat Percentage) Measurements. Postural Assessment.</p>
+                       </div>
+  	  	  	   	   </div>
+  	  	  	   </div>
+  	  	  	   	<div class="box wow bounceInUp" data-wow-delay="0.2s">
+  	  	  	   	   <div class="inner">
+  	  	  	   	   	   <div class="img">
+  	  	  	   	   	   	  <img src="images/about2.jpg" alt="about" />
+  	  	  	   	   	   </div>
+                       <div class="text">
+                       	   <h4>Best Training</h4>
+                       	   <p>Get trained by the best fitness experts.Get the best possible fitness and diet consultancy. Attend special sessions to get the benefit of the expert training sessions and rise up to the best of your potentials.Build muscle, burn fat, and transform your body with these essential gym routine and workout.</p>
+                       </div>
+  	  	  	   	   </div>
+  	  	  	   </div>
+  	  	  	   <div class="box wow bounceInUp" data-wow-delay="0.4s">
+  	  	  	   	   <div class="inner">
+  	  	  	   	   	   <div class="img">
+  	  	  	   	   	   	  <img src="images/about3.jpg" alt="about" />
+  	  	  	   	   	   </div>
+                       <div class="text">
+                       	   <h4>Build Perfect Body</h4>
+                       	   <p>A perfect body is one that not only looks good, but also is healthy and in shape. You should be able to handle your own inside the gym and out. What good is it to look amazing if you don't have the stamina and health to go on a long hike, run a mile, play a sport or having excessive strengthful workout.</p>
+                       </div>
+  	  	  	   	   </div>
+  	  	  	   </div>
+  	  	  </div>
+  	  </div>
+  </section>
+ <!-- End About -->
+
+
+ <!-- Start Service -->
+ <section class="service" id="service">
+ 	<div class="container">
+ 		 <div class="content">
+ 		 	  <div class="text box wow slideInLeft">
+                  <h2>Services</h2>
+                  <p>HM Fitness offers all members 1 hour of free personal training per member, per month in all of our branches. Our nationally certified personal trainers work with you, one on one, as you systematically change programs every month. Every month, for free, the medical experts monitor your heart and circulatory system, measure and weigh you, and chart your percentage of body fat.</p>
+                  <p>Our nutritionists help you with your nutritional program. Proper nutrition is an essential complement to exercise for high energy, and lasting health.Each HM Fitness Center has a saltwater swimming pool on premise. We provide saltwater pools in all of our clubs to better cater to the health of our members; saltwater pools are better for your skin and hair, and also lack the harmful chemicals present in traditional chlorine pools.</p>
+                  <a href="register.html" class="btn">Start Now</a>
+ 		 	  </div>
+ 		 	  <div class="accordian box wow slideInRight">
+ 		 	  	    <div class="accordian-container active">
+ 		 	  	    	<div class="head">
+ 		 	  	    		<h4>Cardiovascular Equipment</h4>
+ 		 	  	    		<span class="fa fa-angle-down"></span>
+ 		 	  	    	</div>
+ 		 	  	    	<div class="body">
+ 		 	  	    		<p>There are so many pieces of Cardio machines, but there are main types of cardio machines that have stood the test of time. Namely: Treadmills, Spinning Bikes, Rowing Machines, Exercise Bikes, and Elliptical trainers. There is a new kid on the block, called the Assault Air Bike.</p>
+ 		 	  	    	</div>
+ 		 	  	    </div>
+ 		 	  	    <div class="accordian-container">
+ 		 	  	    	<div class="head">
+ 		 	  	    		<h4>Strength Training Equipment</h4>
+ 		 	  	    		<span class="fa fa-angle-up"></span>
+ 		 	  	    	</div>
+ 		 	  	    	<div class="body">
+ 		 	  	    		<p>Use our home weight lifting machines and strength training equipment to help improve your overall health and enhance stability and balance.Brace up your strength and pull up the socks to enjoy training on the best availabe strength training equipments. Dumbbells are a good place to start if you're new to strength training.</p>
+ 		 	  	    	</div>
+ 		 	  	    </div>
+ 		 	  	    <div class="accordian-container">
+ 		 	  	    	<div class="head">
+ 		 	  	    		<h4>Group Fitness Class</h4>
+ 		 	  	    		<span class="fa fa-angle-up"></span>
+ 		 	  	    	</div>
+ 		 	  	    	<div class="body">
+ 		 	  	    		<p>Whether you're a beginner at the gym or you just don't have much fitness knowledge, group fitness classes may be your solution. Joining a class can help build a foundation and structure that you can use to fuel your personal health journey for years to come.It's inspiring and motivating to be surrounded by dedicated, like-minded individuals.</p>
+ 		 	  	    	</div>
+ 		 	  	    </div>
+ 		 	  	    <div class="accordian-container">
+ 		 	  	    	<div class="head">
+ 		 	  	    		<h4>Other Services</h4>
+ 		 	  	    		<span class="fa fa-angle-up"></span>
+ 		 	  	    	</div>
+ 		 	  	    	<div class="body">
+ 		 	  	    		<p>Join the HM family and enjoy exclusive and state of the art training amenities along with exclusive membership privileges at the best gym in Vadodara. Train with our personal trainers and build your dream physique in less than a few months with a dedicated support staff and top notch fitness equipments.Come join us at HM gym for the aforementioned facilities and much more.</p>
+ 		 	  	    	</div>
+ 		 	  	    </div>
+ 		 	  </div>
+ 		 </div>
+ 	</div>
+ </section>
+ <!-- End Service -->
+
+<!-- Start Classes -->
+<section class="classes" id="classes">
+	<div class="container">
+		 <div class="content">
+             <div class="box timing wow slideInLeft">
+                    <h2>Classes Schedule</h2>
+                   <table class="table">
+                     <tbody>
+                      <tr>
+                        <td class="day">Monday</td>
+                        <td><strong>9:00 AM</strong></td>
+                        <td>Body Building <br/> 9:00 to 11:00 AM</td>
+                        <td>Room No:210</td>
+                      </tr>
+                      <tr>
+                        <td class="day">Tuesday</td>
+                        <td><strong>9:00 AM</strong></td>
+                        <td>Weight Loss<br/> 9:00 to 11:00 AM</td>
+                        <td>Room No:216</td>
+                      </tr>
+                      <tr>
+                        <td class="day">Wednesday</td>
+                        <td><strong>9:00 AM</strong></td>
+                        <td>Body Building <br/> 9:00 to 11:00 AM</td>
+                        <td>Room No:210</td>
+                      </tr>
+                      <tr>
+                        <td class="day">Thursday</td>
+                        <td><strong>9:00 AM</strong></td>
+                        <td>Weight Loss <br/> 9:00 to 11:00 AM</td>
+                        <td>Room No:216</td>
+                      </tr>
+                      <tr>
+                        <td class="day">Friday</td>
+                        <td><strong>9:00 AM</strong></td>
+                        <td>Body Building <br/> 9:00 to 11:00 AM</td>
+                        <td>Room No:210</td>
+                      </tr>
+                      <tr>
+                        <td class="day">Saturday</td>
+                        <td><strong>9:00 AM</strong></td>
+                        <td>Weight Loss and Body Building <br/> 9:00 to 12:00 AM</td>
+                        <td>Room No:212</td>
+                      </tr>
+                     </tbody>
+                   </table>
+        </div>
+
+		 	  <div class="box text wow slideInRight">
+		 	  	 <h2>Special Batches</h2>
+		 	  	 <p>Special batches have been arranged for the fitness enthusiasts of our gym for the reason if they only want to focus on one and only one aspect of fitness and physical training.</p>
+		 	  	<div class="class-items">
+		 	  	 <div class="item wow bounceInUp">
+                     <div class="item-img">
+                     	 <img src="images/class1.jpg" alt="classes" />
+                     	 <div class="price">
+                     	 	 $59
+                     	 </div>
+                     </div>
+                     <div class="item-text">
+                     	  <h4>Weight Loss Training</h4>
+                     	  <p>Just go for cardio and cycling exercises to undergo efficient weight Loss training.</p>
+                     	  <a href="#Loss">Get Details</a>
+                     </div>
+		 	  	 </div>
+		 	  	 <div class="item wow bounceInUp">
+                     <div class="item-text">
+                     	  <h4>Body Building Training</h4>
+                     	  <p>Want an impressive personality? Join the body building training and achieve what you desire.</p>
+                     	  <a href="#Build">Get Details</a>
+                     </div>
+                     <div class="item-img">
+                     	 <img src="images/class1.jpg" alt="classes" />
+                     	 <div class="price">
+                     	 	 $69
+                     	 </div>
+                     </div>
+		 	  	 </div>
+		 	  	</div>
+		 	  </div>
+		 </div>
+	</div>
+</section>
+<!-- End Classes -->
+
+<!-- Start Gallery -->
+  <section class="gallery" id="gallery">
+  	 <h2>Workout Gallery</h2>
+  	<div class="content">
+  		 <div class="box wow slideInLeft">
+  		 	 <img src="images/gallery1.jpg" alt="gallery" />
+  		 </div>
+  		 <div class="box wow slideInRight">
+  		 	 <img src="images/gallery2.jpg" alt="gallery" />
+  		 </div>
+  		 <div class="box wow slideInLeft">
+  		 	 <img src="images/gallery3.jpg" alt="gallery" />
+  		 </div>
+  		 <div class="box wow slideInRight">
+  		 	 <img src="images/gallery4.jpg" alt="gallery" />
+  		 </div>
+  	</div>
+  </section>
+<!-- End Gallery -->
+
+ <!-- Start Price -->
+  <section class="price-package" id="price">
+  	 <div class="container">
+  	 	  <h2>Choose Your Package</h2>
+  	 	  <p class="title-p">Choose a wise training package and get focused to undergo significant physical and psychological tranformation .</p>
+  	 	  <div class="content">
+  	 	  	  <div class="box wow bounceInUp">
+  	 	  	  	  <div class="inner">
+  	 	  	  	  	   <div class="price-tag" id="Loss">
+  	 	  	  	  	   	  Weight Loss
+  	 	  	  	  	   </div>
+  	 	  	  	  	   <div class="img" >
+  	 	  	  	  	   	 <img src="images/price1.jpg" alt="price" />
+  	 	  	  	  	   </div>
+  	 	  	  	  	   <div class="text" >
+  	 	  	  	  	   	  <h3>1300₹/Month</h3>
+  	 	  	  	  	   	  <p>Get Free WiFi</p>
+  	 	  	  	  	   	  <p>Month to Month</p>
+  	 	  	  	  	   	  <p>No Time Restrictions</p>
+  	 	  	  	  	   	  <p>Gym and Cardio</p>
+  	 	  	  	  	   	  <p>Service Locker Rooms</p>
+  	 	  	  	  	   	  <a href="register.html" class="btn">Join Now</a>
+  	 	  	  	  	   </div>
+  	 	  	  	  </div>
+  	 	  	  </div>
+  	 	  	  <div class="box wow bounceInUp">
+  	 	  	  	  <div class="inner">
+  	 	  	  	  	   <div class="price-tag" id="Build">
+  	 	  	  	  	   	Body Building Training  
+  	 	  	  	  	   </div>
+  	 	  	  	  	   <div class="img">
+  	 	  	  	  	   	 <img src="images/price2.jpg" alt="price" />
+  	 	  	  	  	   </div>
+  	 	  	  	  	   <div class="text" >
+  	 	  	  	  	   	  <h3>1800₹/Month</h3>
+  	 	  	  	  	   	  <p>Get Free WiFi</p>
+  	 	  	  	  	   	  <p>Month to Month</p>
+  	 	  	  	  	   	  <p>No Time Restrictions</p>
+  	 	  	  	  	   	  <p>Deadlifts and Lunges</p>
+  	 	  	  	  	   	  <p>Service Locker Rooms</p>
+  	 	  	  	  	   	  <a href="register.html" class="btn">Join Now</a>
+  	 	  	  	  	   </div>
+  	 	  	  	  </div>
+  	 	  	  </div>
+  	 	  	  <div class="box wow bounceInUp">
+  	 	  	  	  <div class="inner">
+  	 	  	  	  	   <div class="price-tag" id="Transform">
+  	 	  	  	  	   	Complete Transformation  
+  	 	  	  	  	   </div>
+  	 	  	  	  	   <div class="img" >
+  	 	  	  	  	   	 <img src="images/price3.jpg" alt="price" />
+  	 	  	  	  	   </div>
+  	 	  	  	  	   <div class="text" >
+  	 	  	  	  	   	  <h3>2500₹/Month</h3>
+  	 	  	  	  	   	  <p>Get Free WiFi</p>
+  	 	  	  	  	   	  <p>Month to Month</p>
+  	 	  	  	  	   	  <p>No Time Restrictions</p>
+  	 	  	  	  	   	  <p>Cardio and Planks</p>
+  	 	  	  	  	   	  <p>Service Locker Rooms</p>
+  	 	  	  	  	   	  <a href="register.html" class="btn">Join Now</a>
+  	 	  	  	  	   </div>
+  	 	  	  	  </div>
+  	 	  	  </div>
+  	 	  </div>
+  	 </div>
+  </section>
+ <!-- End Price -->
+
+ <!-- Start Contact -->
+  <section class="contact" id="contact">
+     <div class="container">
+        <div class="content">
+            <div class="box form wow slideInLeft">
+               <form name="Msg" autocomplete="off" onsubmit="return valid()" method="post">
+                  <div id="msg">Leave A Message</div>
+                  <input type="text" required="" name="Name" placeholder="Enter Name">
+                  <input type="text" required="" name="EMail" placeholder="Enter Email">
+                  <input type="text" required="" name="Telephone" placeholder="Enter Mobile">
+                  <textarea placeholder="Enter Message" required="" name="Message"></textarea>
+                 <input type="submit" value="Submit" id="msgbtn" name="Submit">
+               </form>
+            </div>
+            <div class="box text wow slideInRight">
+                 <h2>Join Us</h2>
+                  <p class="title-p">Come and Visit us personally for further information. You can reach us at the given address. We would like to answer your call and can also help you by E-mail.</p>
+                  <div class="info">
+                      <ul>
+                          <li><span class="fa fa-map-marker"></span> Shop 17,Elzing street, Vadodara</li>
+                          <li><span class="fa fa-phone"></span> 91 1234567890</li>
+                          <li><span class="fa fa-envelope"></span> HM.fit@gmail.com</li>
+                      </ul>
+                  </div>
+                  <div class="social">
+                       <a href=""><span class="fa fa-facebook"></span></a>
+                       <a href=""><span class="fa fa-instagram"></span></a>
+                       <a href=""><span class="fa fa-skype"></span></a>
+                       <a href=""><span class="fa fa-youtube-play"></span></a>
+                  </div>
+            </div>
+        </div>
+     </div>
+  </section>
+ <!-- End Contact -->
+ <!-- jquery -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</script>
+<script>
+	$(document).ready(function(){
+      $(".ham-burger, .nav ul li a").click(function(){
+        $(".nav").toggleClass("open")
+        $(".ham-burger").toggleClass("active");
+      })      
+      $(".accordian-container").click(function(){
+      	$(".accordian-container").children(".body").slideUp();
+      	$(".accordian-container").removeClass("active")
+      	$(".accordian-container").children(".head").children("span").removeClass("fa-angle-down").addClass("fa-angle-up")
+      	$(this).children(".body").slideDown();
+      	$(this).addClass("active")
+      	$(this).children(".head").children("span").removeClass("fa-angle-up").addClass("fa-angle-down")
+      })
+
+       $(".nav ul li a, .go-down").click(function(event){
+         if(this.hash !== ""){
+              event.preventDefault();
+              var hash=this.hash; 
+              $('html,body').animate({
+                scrollTop:$(hash).offset().top
+              },800 , function(){
+                 window.location.hash=hash;
+              });
+
+              // add active class in navigation
+              $(".nav ul li a").removeClass("active")
+              $(this).addClass("active")
+         }
+      })
+})
+</script>
+</body>
+</html>
