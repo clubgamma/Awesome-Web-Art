@@ -82,6 +82,8 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 | <img src="https://github.com/YASH4801/Awesome-Web-Art/blob/master/YASH4801/day-night.gif" width=80% height=90%> | [Find the code here](https://github.com/YASH4801/Awesome-Web-Art/blob/master/YASH4801/animo.html) | [Yash Narang](https://github.com/YASH4801) |
 | <img src="https://user-images.githubusercontent.com/50026172/94992249-4aa57700-05a6-11eb-8af6-e1f8c65e23a2.gif" width=80% height=90%> | [Find the code here](https://github.com/anjali-patel21/Awesome-Web-Art/blob/master/anjali-patel21/glowing.html) | [Anjali Patel](https://github.com/anjali-patel21) |
 | <img src="https://user-images.githubusercontent.com/50026172/94992534-36fb1000-05a8-11eb-8c48-9c2be14ccde2.gif" width=80% height=90%> | [Find the code here](https://github.com/anjali-patel21/Awesome-Web-Art/blob/master/anjali-patel21/Hello_animation.html) | [Anjali Patel](https://github.com/anjali-patel21) |
+| <img src="https://user-images.githubusercontent.com/50026172/94993018-a1fa1600-05ab-11eb-81a8-d844ff644f2f.gif" width=80% height=90%> | [Find the code here](https://github.com/anjali-patel21/Awesome-Web-Art/blob/master/anjali-patel21/loading_animation.html) | [Anjali Patel](https://github.com/anjali-patel21) |
+
 
 
 # Things to keep in mind
