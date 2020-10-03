@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat/Montserrat-Medium.ttf");
+}
+@font-face {
+  font-family: "Montserrat-Italic";
+  src: url("fonts/Montserrat/Montserrat-MediumItalic.ttf");
+}
+@font-face {
+  font-family: "Pacifico";
+  src: url("fonts/Pacifico/Pacifico-Regular.ttf");
+}
+
+body {
+  font: 1em "Montserrat", sans-serif;
+  color: #393e46;
+  background-color: #f5feff;
+}
+
+input {
+  width: 100%;
+  font-family: "Montserrat";
+}
+
+h1 {
+  font: 3em "Pacifico", cursive;
+  color: #494949;
+}
+
+.done {
+  font-family: "Montserrat-Italic";
+  text-decoration-line: line-through;
+  opacity: 0.8;
+}
+
+/*Todo List*/
+
+.list {
+  background-color: #fff;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 500px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+.todos {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.todos li .done-button:hover,
+.todos li .delete-button:hover {
+  opacity: 1;
+}
+
+.todos li,
+input {
+  border: 0;
+  border-bottom: 1px dashed #ccc;
+  padding: 15px 0;
+  margin: 15px 0;
+}
+
+.submit {
+  padding: 15px 0;
+  margin: 15px 0;
+  color: #000;
+  border: 0;
+}
+
+input:focus {
+  outline: none;
+}
+/*Done Button*/
+.done-button {
+  display: inline-block;
+  font: 1em;
+  background-color: #f5feff;
+  color: #333;
+  padding: 5px 5px;
+  opacity: 0.2;
+  text-decoration-line: none;
+}
+.delete-button {
+  display: inline-block;
+  font: 1em;
+  background-color: #f5feff;
+  color: #333;
+  padding: 5px 5px;
+  opacity: 0.2;
+  text-decoration-line: none;
+}
+
+.add-todo .submit:hover {
+  opacity: 1;
+  box-shadow: 2px 2px 0 #ccc;
+}
