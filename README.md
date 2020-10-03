@@ -51,6 +51,8 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 | <img src="https://user-images.githubusercontent.com/63587007/94796454-72f17200-03fc-11eb-9002-bd70b82242f5.gif" width=80% height=70%> | [Find the code here](https://github.com/AyushSojitra/Awesome-Web-Art/blob/master/AyushSojitra/search_button_animated.html) | [Ayush Sojitra](https://github.com/AyushSojitra) |
 | <img src="https://github.com/imjp19/Awesome-Web-Art/blob/master/imjp19/ezgif.com-gif-maker.gif" width=80% height=70%> | [Find the code here](https://github.com/imjp19/Awesome-Web-Art/blob/master/imjp19/login-signup-animation.html) | [Jay Patel](https://github.com/imjp19) |
 | <img src="https://github.com/smit4297/Awesome-Web-Art/blob/master/smit4297/smit4297.gif" width=80% height=70%> | [Find the code here](https://github.com/smit4297/Awesome-Web-Art/blob/master/smit4297/index.html) | [Smit Patel](https://github.com/smit4297) |
+| <img src="https://github.com/imjp19/Awesome-Web-Art/blob/master/imjp19/HOVER.gif" width=80% height=70%> | [Find the code here](https://github.com/imjp19/Awesome-Web-Art/blob/master/imjp19/button-hover.html) | [Jay Patel](https://github.com/imjp19) |
+| <img src="https://github.com/imjp19/Awesome-Web-Art/blob/master/imjp19/change-color-clock.gif" width=50% height=70%> | [Find the code here](https://github.com/imjp19/Awesome-Web-Art/blob/master/imjp19/color-change-clock.html) | [Jay Patel](https://github.com/imjp19) |
 | <img src="https://github.com/sanketchaudhari10/Awesome-Web-Art/blob/master/sanketchaudhari10/animationpagegif.gif" width=80% height=70%> | [Find the code here](https://github.com/sanketchaudhari10/Awesome-Web-Art/blob/master/sanketchaudhari10/animationpage.html) | [Sanket Chaudhari](https://github.com/sanketchaudhari10) |
 | <img src="https://github.com/imjp19/Awesome-Web-Art/blob/master/imjp19/ezgif.com-gif-maker%20(2).gif" width=80% height=70%> | [Find the code here](https://github.com/imjp19/Awesome-Web-Art/blob/master/imjp19/button-hover.html.html) | [Jay Patel](https://github.com/imjp19) |
 | <img src="https://github.com/jerry2501/Awesome-Web-Art/blob/master/jerry2501/jerry2501.gif" width=80% height=70%> | [Find the code here](https://github.com/jerry2501/Awesome-Web-Art/blob/master/jerry2501/index.html) | [Jignesh Kukadiya](https://github.com/jerry2501) |
@@ -70,7 +72,6 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 | <img src="https://github.com/HetGalia/Awesome-Web-Art/blob/master/HetGalia/Trail/Trail.gif" width=80% height=70%> | [Find the code here](https://github.com/HetGalia/Awesome-Web-Art/tree/master/HetGalia/Trail) | [HetGalia](https://github.com/HetGalia) |
 | <img src="https://user-images.githubusercontent.com/71244798/94947480-5ab44c80-04fb-11eb-9eea-9689703fc136.gif" width=80% height=70%> | [Find the code here](https://github.com/omdhimar28/Awesome-Web-Art/blob/master/omdhimar28/Block.html) | [Om Dhimar](https://github.com/omdhimar28) |
 | <img src="https://user-images.githubusercontent.com/71244798/94949902-59851e80-04ff-11eb-8226-f8ee009e0e73.gif" width=80% height=70%> | [Find the code here](https://github.com/omdhimar28/Awesome-Web-Art/blob/master/omdhimar28/Box.html) | [Om Dhimar](https://github.com/omdhimar28) |
-
 
 
 # Things to keep in mind
