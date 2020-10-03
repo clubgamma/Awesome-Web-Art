@@ -81,6 +81,7 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 | ![img](madhavtripathi05/todos.gif) | [Find the code here](madhavtripathi05/todo-mt) | [Madhav Tripathi](https://github.com/madhavtripathi)     |
 | <img src="https://github.com/YASH4801/Awesome-Web-Art/blob/master/YASH4801/day-night.gif" width=80% height=90%> | [Find the code here](https://github.com/YASH4801/Awesome-Web-Art/blob/master/YASH4801/animo.html) | [Yash Narang](https://github.com/YASH4801) |
 | <img src="https://user-images.githubusercontent.com/50026172/94992249-4aa57700-05a6-11eb-8af6-e1f8c65e23a2.gif" width=80% height=90%> | [Find the code here](https://github.com/anjali-patel21/Awesome-Web-Art/blob/master/anjali-patel21/glowing.html) | [Anjali Patel](https://github.com/anjali-patel21) |
+| <img src="https://user-images.githubusercontent.com/50026172/94992534-36fb1000-05a8-11eb-8c48-9c2be14ccde2.gif" width=80% height=90%> | [Find the code here](https://github.com/anjali-patel21/Awesome-Web-Art/blob/master/anjali-patel21/Hello_animation.html) | [Anjali Patel](https://github.com/anjali-patel21) |
 
 
 # Things to keep in mind
