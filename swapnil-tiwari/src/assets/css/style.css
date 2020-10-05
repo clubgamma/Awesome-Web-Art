@@ -1,0 +1,36 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css');
+body
+{
+  margin:0px;
+  padding:0px;
+}
+.background
+{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-image: url('../net.gif'),url('../bg.jpg');
+  background-blend-mode: lighten;
+
+}
+.overlay
+{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: #00000085;
+}
+.main-cont
+{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+.surface_1
+{
+    box-shadow:0 0 15px 3px #060c29;
+    background:#000000c7;
+
+}
+
