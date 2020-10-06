@@ -87,6 +87,8 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 | <img src="https://user-images.githubusercontent.com/58872872/94996031-c364fd00-05bf-11eb-8fe1-1814909db5e2.gif" width=80% height=90%> | [Find the code here](https://github.com/iamdhrutipatel/Awesome-Web-Art/blob/master/iamdhrutipatel/animation_3.html) | [Dhruti Patel](https://github.com/iamdhrutipatel) |
 | <img src="https://github.com/thevrajshah/Awesome-Web-Art/blob/master/thevrajshah/VeggieBurger.gif" width=80% height=70%>                 | [Find the code here](https://github.com/thevrajshah/Awesome-Web-Art/blob/master/thevrajshah/VeggieBurger.html)                                                        | [Vraj Shah](https://github.com/thevrajshah)          |
 | <img src="https://github.com/swapnil-tiwari/Awesome-Web-Art/blob/master/swapnil-tiwari/hope-animation.gif" width=80% height=90%> | [Find the code here](https://github.com/swapnil-tiwari/Awesome-Web-Art/tree/master/swapnil-tiwari) | [Swapnil Tiwari](https://github.com/swapnil-tiwari) |
+| <img src="https://github.com/het1912/Awesome-Web-Art/blob/master/het1912/ezgif.com-gif-maker%20(4).gif" width=80% height=90%> | [Find the code here](https://github.com/het1912/Awesome-Web-Art/blob/master/het1912/index.html) | [Het Patel](https://github.com/het1912) |
+
 
 
 
