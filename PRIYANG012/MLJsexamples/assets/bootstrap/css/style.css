@@ -1,0 +1,44 @@
+
+.dark-mode {
+ 
+  background: linear-gradient(to bottom, rgb(37, 37, 37) 0%, #229dd6 100%);
+ 
+}
+
+#change{
+  background: linear-gradient(to bottom, #fff 0%, #229dd6 100%); 
+  margin: 0px;
+}
+
+
+body{
+  font-family: 'Nunito', sans-serif;
+  
+color: black;
+
+}
+
+
+
+.servivesprovided{
+  margin-right: 0px;
+}
+#themecolor:hover {
+  
+  color:yellow;
+  cursor: pointer;
+  
+}
+
+#themecolor{
+  color:black
+}
+.theme{
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: transparent;
+  transition: all 0.3s ease;
+  color: black;
+  font-size: 20px;
+}

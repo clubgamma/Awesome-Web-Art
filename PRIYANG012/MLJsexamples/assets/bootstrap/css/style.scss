@@ -1,0 +1,48 @@
+/* Demo */
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#ecf0f1, #fff);
+  }
+  
+  /* Animation */
+  @keyframes rotate {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Variables */
+  $loader-size: 100px;
+  
+  /* Loading Icon */
+  .loading {
+    width: $loader-size;
+    height: $loader-size;
+  
+    &__ring {
+      position: absolute;
+      width: $loader-size;
+      height: $loader-size;
+      
+      &:first-child {
+        transform: skew(30deg,20deg);
+      }
+  
+      &:last-child {
+        transform: skew(-30deg,-20deg) scale(-1, 1);
+  
+        svg {
+          animation-delay: -0.5s;
+        }
+      }
+  
+      svg {
+        animation: rotate 1s linear infinite;
+        fill: rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+  
