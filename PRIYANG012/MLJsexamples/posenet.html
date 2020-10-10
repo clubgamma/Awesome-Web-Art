@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Home - ML Centeral Hub</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+   <script src="assets/js/theme.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+   
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body id="main">
+ 
+
+  <div id="bodyofpage">
+ 
+    <nav>
+        <ul>
+          <li><a href="index.html">mobile net</a></li>
+          <li> <a style="color:orange" onclick="myFunction()">Theme </a></li>
+        </ul>
+      </nav>
+
+    <div id="page-top" class="backmain" style="margin-top: 0px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading" style="color: #229dd6;">Pose Net</h2>
+                    <hr  id="hrl">
+                </div>
+            </div>
+            
+    
+        </div>
+        <div class="row" >
+            <div class="col-lg-11 change"  id="change" style="margin: 0px;border-top-right-radius: 20px;border-bottom-right-radius:20px ;">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-sm-12 text-align" style="padding: 4%;" >
+                        <h3 style="padding-top: 50px;">Discription</h3>
+                        PoseNet is a machine learning model that allows for Real-time Human Pose Estimation.
+    
+    PoseNet can be used to estimate either a single pose or multiple poses, meaning there is a version of the algorithm that can detect only one person in an image/video and one version that can detect multiple persons in an image/video.</div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 text-center" style="padding: 4%;">
+                        <img src="assets/images/posenet.svg" alt="image" style="width: 300px;height:300px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row "  style="margin-right: 0px;">
+           
+           
+            <div class="col-lg-12 change " id="change" style="border-top-left-radius: 20px;border-bottom-left-radius:20px ;">
+                <div class="row" >
+                    
+                    <div class="col-lg-12 col-md-12 col-sm-12 text-center" style="padding: 4%;">
+                        <h3>The Example</h3>
+                        <p>Live Body Position Detection</p>
+                    </div>
+                    <div class="col-lg-12 text-center" style="padding-left: 4%;padding-right: 4%;padding-bottom: 4%;">
+                        <div id="videoContainer"></div>
+                        <div id="videoContainer1"></div>
+                        <div id="sketch-holder">
+                            <!-- Our sketch will go here! -->
+                          </div>
+     
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        
+        <div class="row" >
+            <div class="col-lg-11 change"  id="change" style="margin: 0px;border-top-right-radius: 20px;border-bottom-right-radius:20px ;">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 " style="padding: 4%;" >
+                        <h3 style="padding-top: 1px;">Quickstart</h3>
+    <pre class='code code-html'><label>JS</label><code>
+        const video = document.getElementById('video');
+    
+        // Create a new poseNet method
+        const poseNet = ml5.poseNet(video, modelLoaded);
+        
+        // When the model is loaded
+        function modelLoaded() &#10100;
+          console.log('Model Loaded!');
+        &#10101;
+        // Listen to new 'pose' events
+        poseNet.on('pose', (results) => &#10100;
+          poses = results;
+        &#10101;);
+        
+    </code></pre>
+                    </div>
+                 
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row servivesprovided" style="margin-right: 0px;">
+           
+            <div class="col-lg-1"></div>
+            <div class="col-lg-11 change"  id="change" style="margin: 0px;background: linear-gradient(to bottom, #fff 0%, #229dd6 100%);border-top-left-radius: 20px;border-bottom-left-radius:20px ;">
+                <div class="row">
+    
+                    <div class="col-lg-12 col-md-12 col-sm-12 " style="padding: 4%;">
+                        <h3 class="text-center" style="padding-top: 1px;">Usage
+                           </h3>
+                           <h4> Initialize</h4><br>
+                           <p>There are a couple ways to initialize ml5.poseNet.</p>
+    <pre class='code code-html'><label>JS</label><code>
+        // Initialize with video, type and callback
+        const poseNet = ml5.poseNet(?video, ?type, ?callback);
+        // OR Initialize with video, options and callback
+        const poseNet = ml5.poseNet(?video, ?options, ?callback);
+        // OR Initialize WITHOUT video. Just options and callback here
+        const poseNet = ml5.poseNet(?callback, ?options);
+        
+    </code></pre>
+    <br>
+    <br>
+    <br>
+    <ul><h5>Parameters</h5>
+        <li>
+            video: OPTIONAL. Optional HTMLVideoElement input to run poses on.<br>
+    
+    type: OPTIONAL. A String value to run single or multiple estimation. Changes the detectionType property of the options. Default is multiple.
+    <br>
+    callback: OPTIONAL. A function that is called when the model is loaded.
+    <br>
+    options: OPTIONAL. A object that contains properties that effect the posenet model accuracy, results, etc.
+    <br>    </li>
+    <li>
+    <br>
+    
+    <pre class='code code-html'><label>JS</label><code>
+        &#10100;
+        architecture: 'MobileNetV1',
+        imageScaleFactor: 0.3,
+        outputStride: 16,
+        flipHorizontal: false,
+        minConfidence: 0.5,
+        maxPoseDetections: 5,
+        scoreThreshold: 0.5,
+        nmsRadius: 20,
+        detectionType: 'multiple',
+        inputResolution: 513,
+        multiplier: 0.75,
+        quantBytes: 2,
+      &#10101;;
+      
+    </code></pre>
+    
+    </li>
+    
+    </ul> 
+    
+    <ul><h5>Properties</h5>
+    
+    <li>model<br>
+        Object. The model.
+    </li>
+    
+    <li>
+    net<br>
+    The poseNet model
+    </li>
+    <li>video<br>
+    The optional video added to the
+    </li>
+    <li>architecture<br>
+    The model architecture
+    </li>
+    <li>detectionType<br>
+    The detection type
+    </li>
+    <li>imageScaleFactor<br>
+    The image scale factor
+    </li>
+    <li>
+    outputStride<br>
+    Can be one of 8, 16, 32 (Stride 16, 32 are supported for the ResNet architecture and stride 8, 16, 32 are supported for the MobileNetV1 architecture). It specifies the output stride of the PoseNet model. The smaller the value, the larger the output resolution, and more accurate the model at the cost of speed. Set this to a larger value to increase speed at the cost of accuracy.
+    </li>
+    <li>flipHorizontal<br>
+    Boolean. Flip the image horizontal or not.
+    </li>
+    <li>scoreThreshold<br>
+    The threshold for returned values. Between 0 and 1. Only return instance detections that have root part score greater or equal to this value. Defaults to 0.5.
+    </li>
+    <li>maxPoseDetections<br>
+    the maximum number of poses to detect. Defaults to 5.
+    </li>
+    <li>multiplier<br>
+    Can be one of 1.01, 1.0, 0.75, or 0.50 (The value is used only by the MobileNetV1 architecture and not by the ResNet architecture). It is the float multiplier for the depth (number of channels) for all convolution ops. The larger the value, the larger the size of the layers, and more accurate the model at the cost of speed. Set this to a smaller value to increase speed at the cost of accuracy.
+    </li>
+    <li>inputResolution<br>
+    Can be one of 161, 193, 257, 289, 321, 353, 385, 417, 449, 481, 513, and 801. Defaults to 257. It specifies the size the image is resized to before it is fed into the PoseNet model. The larger the value, the more accurate the model at the cost of speed. Set this to a smaller value to increase speed at the cost of accuracy.
+    </li>
+    <li>
+    quantBytes<br>
+    This argument controls the bytes used for weight quantization. The available options are: 4. 4 bytes per float (no quantization). Leads to highest accuracy and original model size (90MB). 2. 2 bytes per float. Leads to slightly lower accuracy and 2x model size reduction (45MB). 1. 1 byte per float. Leads to lower accuracy and 4x model size reduction (~22MB).
+    </li>
+    <li>
+    nmsRadius<br>
+    Non-maximum suppression part distance. It needs to be strictly positive. Two parts suppress each other if they are less than nmsRadius pixels away. Defaults to 20.
+    </li>
+    
+    </ul>
+    
+    
+    
+    <ul>
+       <h5> Methods</h5>
+       <li>
+        on('pose', ...)<br>
+        An event listener that returns the results when a pose is detected. You can use this with .singlePose() or .multiPose() or just listen for poses if you pass in a video into the constructor.
+    <pre class='code code-html'><label>JS</label><code>
+    poseNet.on('pose', callback);
+    </code></pre>   
+    </li>
+       <li><br>📥 Inputs
+        <br>
+        callback: REQUIRED. A callback function to handle the results when a pose is detected. For example.
+    <pre class='code code-html'><label>JS</label><code>
+        poseNet.on('pose', (results) => &#10100;
+            // do something with the results
+            console.log(results);
+          &#10101;);
+          
+    </code></pre> 
+        </li>
+        <li><br>📤 Outputs
+        <br>
+        Array: Returns an array of objects. A sample is included below.
+        <pre class='code code-html'><label>JS</label><code>
+            [
+      &#10100;
+        pose: &#10100;
+          keypoints: [&#10100; position: &#10100; x, y &#10101;, score, part &#10101;, ...],
+          leftAngle: &#10100; x, y, confidence &#10101;,
+          leftEar: &#10100; x, y, confidence &#10101;,
+          leftElbow: &#10100; x, y, confidence &#10101;,
+          ...
+          &#10101;,
+          &#10101;,
+    ];
+    
+        </code></pre>
+        </li>
+    
+    
+    
+        <li>
+            multiPose()<br>
+        <pre class='code code-html'><label>JS</label><code>
+        poseNet.multiPose(?input);
+        </code></pre>   
+        </li>
+           <li><br>📥 Inputs
+            <br>
+            input: Optional. Number. A HTML video or image element or a p5 image or video element. If no input is provided, the default is to use the video given in the constructor.
+        
+            </li>
+            <li><br>📤 Outputs
+            <br>
+            Array: Returns an array of objects. A sample is included below.
+            <pre class='code code-html'><label>JS</label><code>
+                [
+                &#10100;
+                  pose: &#10100;
+                    keypoints: [&#10100; position: &#10100; x, y &#10101;, score, part &#10101;, ...],
+                    leftAngle: &#10100; x, y, confidence &#10101;,
+                    leftEar: &#10100; x, y, confidence &#10101;,
+                    leftElbow: &#10100; x, y, confidence &#10101;,
+                    ...
+                  &#10101;,
+                &#10101;,
+                &#10100;
+                  pose: &#10100;
+                    keypoints: [&#10100; position: &#10100; x, y &#10101;, score, part &#10101;, ...],
+                    leftAngle: &#10100; x, y, confidence &#10101;,
+                    leftEar: &#10100; x, y, confidence &#10101;,
+                    leftElbow: &#10100; x, y, confidence &#10101;,
+                    ...
+                  &#10101;,
+                &#10101;,
+              ];
+              
+            </code></pre>
+            </li>
+    </ul>
+    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+  
+  
+  
+</div>
+    <script>
+    $('i[rel="pre"]').replaceWith(function() {
+      return $('<pre><code>' + $(this).html() + '</code></pre>');
+  });
+    </script>
+  <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+   
+        <script src="assets/js/creative.js"></script>
+    <script src="assets/js/sketch9.js"></script>
+    <script src="assets/js/dark.js"></script>
+    <script src="assets/js/theme.js"></script>
+    
+</body>
+</html>

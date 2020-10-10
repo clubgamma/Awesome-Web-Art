@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Home - ML Centeral Hub</title>
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets/js/bs-init.js"></script>
+   <script src="./assets/js/theme.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+   
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body id="main" >
+  
+  <div id="bodyofpage">
+ 
+<nav>
+  <ul>
+    <li><a href="posenet.html">Posenet</a></li>
+    <li> <a style="color:orange" onclick="myFunction()">Theme </i></a></li>
+
+  </ul>
+</nav>
+  
+<div id="page-top" class="backmain" style="margin-top: 0px;">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-12 text-center">
+              <h2 class="section-heading"  style="color: #229dd6;" >ImageClassifier</h2>
+              <hr  id="hrl">
+          </div>
+      </div>
+      
+
+  </div>
+  <div class="row" >
+      <div class="col-lg-11 change"  id="change" style="margin: 0px;border-top-right-radius: 20px;border-bottom-right-radius:20px ;">
+          <div class="row">
+              <div class="col-lg-8 col-md-8 col-sm-12 text-align" style="padding: 4%;" >
+                  <h3 style="padding-top: 50px;">Discription</h3>
+                  You can use neural networks to recognize the content of images. ml5.imageClassifier() is a method to create an object that classifies an image using a pre-trained model.
+
+It should be noted that the pre-trained model provided by the example below was trained on a database of approximately 15 million images (ImageNet). The ml5 library accesses this model from the cloud. What the algorithm labels an image is entirely dependent on that training data -- what is included, excluded, and how those images are labeled (or mislabeled).
+<br>
+                  MobileNet is a CNN architecture model for Image Classification and Mobile Vision.There are other models as well but what makes MobileNet special that it very less computation power to run or apply transfer learning to.This makes it a perfect fit for Mobile devices,embedded systems and
+                  computers without GPU or low computational efficiency with compromising significantly with the accuracy of the results.It is also best suited for web browsers as browsers have limitation over computation,graphic processing and storage.   </div>
+              <div class="col-lg-4 col-md-4 col-sm-12 text-center" style="padding: 4%;">
+                  <img src="./assets/images/imageclassification.svg" alt="image" style="width: 300px;height:300px;">
+              </div>
+          </div>
+      </div>
+  </div>
+  <br>
+  <br>
+  <div class="row "  style="margin-right: 0px;">
+     
+     
+      <div class="col-lg-12 change " id="change" style="border-top-left-radius: 20px;border-bottom-left-radius:20px ;">
+          <div class="row" >
+              
+              <div class="col-lg-12 col-md-12 col-sm-12 text-center" style="padding: 4%;">
+                  <h3>The Example</h3>
+                  <p>Predict the Things using Mobilenet Just by Uploading a image</p>
+              </div>
+              <div class="col-lg-12 text-center" style="padding-left: 4%;padding-right: 4%;padding-bottom: 4%;">
+                   <img class="image" src="./assets/images/upload.svg" style="width:40%;height:400px" />
+
+  <div class="result">
+    <h2>Let's Get Started</h2>
+  </div>
+
+  <div class="capture">
+    <div class="record fileUpload">
+    <input
+      class="input upload"
+      type="file"
+      accept="image/*"
+      onchange="handleUpload(this.files)"
+    />
+    <span>Upload here</span>
+  </div>
+ 
+
+
+
+
+
+              </div>
+             
+          </div>
+      </div>
+  </div>
+  <br>
+  <br>
+  
+  
+  
+  
+</div>
+  <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+   
+        <script src="./assets/js/creative.js"></script>
+    <script src="./assets/js/sketch2.js"></script>
+    <script src="./assets/js/dark.js"></script>
+    <script src="./assets/js/theme.js"></script>
+    
+</body>
+</html>
