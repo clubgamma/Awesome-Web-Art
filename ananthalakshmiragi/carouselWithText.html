@@ -1,0 +1,106 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<title>Slider Animation</title>
+	<style type="text/css">
+
+    body,html {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .city-name {
+      position: absolute;
+      color:white;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 100px;
+      text-align: center;
+      width: 100%;
+      margin: 30vh 0 0 0;
+      z-index: 1;
+      text-shadow: 2px 2px 4px grey;
+    }
+
+    label {
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      border: solid 0.5px white;
+      border-radius: 12px;
+      margin: 90vh 10px 0 10px;
+    }
+
+    .city {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+
+    input {
+      position: absolute;  
+      opacity: 0;
+    }
+
+    input:checked + label{
+      background-color: white;
+    }
+
+    input:checked ~ .city  {
+      transform: translateX(100%);
+    }
+
+    input:checked + label + .city {
+      transform: translateX(0);
+      opacity: 1;
+    }
+
+    img {
+      max-width: 100vw;
+      height: auto;
+    }
+    </style>
+</head>
+<body>
+    <input type="radio" id="jeju" name="slider" >
+    <label for="jeju"></label>
+    <div class="city">
+      <h1 class="city-name">JEJU</h1>
+      <img src="https://images.unsplash.com/photo-1558006297-a916366218d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9">
+    </div>
+
+    <input type="radio" id="seoul" name="slider" >
+    <label for="seoul"></label>
+    <div class="city">
+      <h1 class="city-name">SEOUL</h1>
+      <img src="https://images.unsplash.com/photo-1517166988974-5e377975dd67?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9">
+    </div>
+
+    <input type="radio" id="busan" name="slider" checked>
+    <label for="busan"></label>
+    <div class="city">
+      <h1 class="city-name">BUSAN</h1>
+      <img src="https://images.unsplash.com/photo-1582039779275-6a112976333a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9">
+    </div>
+
+    <script>
+      startSlideShow();
+      function startSlideShow() {
+        var markers =  document.getElementsByTagName("input");
+        var text =  document.getElementsByTagName("h1");
+        for( i = 0; i < markers.length; i++ ) {
+          if( markers[i].checked ) {
+            if (i+1 == markers.length)
+              markers[0].checked = true;
+            else
+              markers[i+1].checked = true;
+            setTimeout(startSlideShow, 2000);
+            return;
+          }
+        }
+      }
+    </script>
+</body>
+</html>
