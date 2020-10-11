@@ -91,6 +91,7 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 | <img src="https://github.com/manncodes/Awesome-Web-Art/blob/master/manncodes/ezgif.com-gif-maker.gif" width=80% height=90%> | [Find the code here](https://github.com/manncodes/Awesome-Web-Art/blob/master/manncodes/dist/index.html) | [Mann Patel](https://github.com/manncodes) |
 | <img src="https://github.com/PRIYANG012/Awesome-Web-Art/blob/master/PRIYANG012/MLJsexamples/ezgif.com-gif-maker.gif" width=80% height=90%> | [Find the code here](https://github.com/PRIYANG012/Awesome-Web-Art/blob/master/PRIYANG012/MLJsexamples/index.html) | [Priyang Patel](https://github.com/PRIYANG012) |
 | <img src="https://github.com/ananthalakshmiragi/Awesome-Web-Art/blob/master/ananthalakshmiragi/BasicCardFlip.gif" width=80% height=90%> | [Find the code here](https://github.com/ananthalakshmiragi/Awesome-Web-Art/blob/master/ananthalakshmiragi/BasicCardFlip.html) | [Anu Ragi](https://github.com/ananthalakshmiragi) |
+| <img src="https://github.com/ananthalakshmiragi/Awesome-Web-Art/blob/master/ananthalakshmiragi/carouselWithText.gif" width=80% height=90%> | [Find the code here](https://github.com/ananthalakshmiragi/Awesome-Web-Art/blob/master/ananthalakshmiragi/carouselWithText.html) | [Anu Ragi](https://github.com/ananthalakshmiragi) |
 
 
 
