@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bounce List Animation</title>
+	<style type="text/css">
+
+    body {
+        background-color: whitesmoke;
+        text-align: center;
+        font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    }
+
+    label {
+        margin: 25vh auto 0 auto;
+        padding: 15px 20px 20px;
+        position: relative;
+        display: block;
+        background-color:white;
+        color:lightsalmon ;
+        width: 25%;
+    }
+
+    ul {
+        display: none;
+        color:violet ;
+        list-style-type: none;
+        padding: 0 20px 0 20px;
+        line-height: 3.333em;
+        background-color:white;
+        width: 25%;
+    }
+
+    input:checked ~ ul {
+        display: inline-block;
+        animation: dropdownBounce 0.5s both;
+    }
+
+    @keyframes dropdownBounce {
+        0% {
+            opacity: 0;
+            transform: translateY(0px);
+        }
+        50% {
+            opacity: 1;
+            transform: translateY(5px);
+        }
+        70% {
+            transform: translateY(-5px);
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }
+    </style>
+</head>
+<body>
+    <div>
+        <input type="checkbox" id="ctryDrop" style="display:none" >
+        <label for="ctryDrop">Select a country</label>
+        <ul id ="ctry">
+            <li>India</li>
+            <li>South Korea</li>
+            <li>Switzerland</li>
+        </ul>
+    </div>
+</body>
+</html>
