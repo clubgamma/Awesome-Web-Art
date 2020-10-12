@@ -1,4 +1,4 @@
-<h1 align="center">Awesome-Web-Art</h1>
+﻿<h1 align="center">Awesome-Web-Art</h1>
 <div align="center">  
 <a href="https://github.com/clubgamma/Awesome-Web-Art/stargazers"><img src="https://img.shields.io/github/stars/clubgamma/Awesome-Web-Art?style=flat"/></a>
 <a href="https://github.com/clubgamma/Awesome-Web-Art/network/members"><img src="https://img.shields.io/github/forks/clubgamma/Awesome-Web-Art?style=flat"/></a>
@@ -92,6 +92,8 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 | <img src="https://github.com/PRIYANG012/Awesome-Web-Art/blob/master/PRIYANG012/MLJsexamples/ezgif.com-gif-maker.gif" width=80% height=90%> | [Find the code here](https://github.com/PRIYANG012/Awesome-Web-Art/blob/master/PRIYANG012/MLJsexamples/index.html) | [Priyang Patel](https://github.com/PRIYANG012) |
 | <img src="https://github.com/ananthalakshmiragi/Awesome-Web-Art/blob/master/ananthalakshmiragi/BasicCardFlip.gif" width=80% height=90%> | [Find the code here](https://github.com/ananthalakshmiragi/Awesome-Web-Art/blob/master/ananthalakshmiragi/BasicCardFlip.html) | [Anu Ragi](https://github.com/ananthalakshmiragi) |
 | <img src="https://github.com/ananthalakshmiragi/Awesome-Web-Art/blob/master/ananthalakshmiragi/carouselWithText.gif" width=80% height=90%> | [Find the code here](https://github.com/ananthalakshmiragi/Awesome-Web-Art/blob/master/ananthalakshmiragi/carouselWithText.html) | [Anu Ragi](https://github.com/ananthalakshmiragi) |
+| <img src="https://github.com/dawoodmalhi/Awesome-Web-Art/blob/master/dawoodmalhi/sample-run.gif" width=80% height=90%> | [Find the code here](https://github.com/dawoodmalhi/Awesome-Web-Art/blob/master/dawoodmalhi) | [Dawood Malhi](https://github.com/dawoodmalhi) |
+
 
 
 
