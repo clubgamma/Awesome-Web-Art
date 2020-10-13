@@ -93,7 +93,7 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 | <img src="https://github.com/ananthalakshmiragi/Awesome-Web-Art/blob/master/ananthalakshmiragi/BasicCardFlip.gif" width=80% height=90%> | [Find the code here](https://github.com/ananthalakshmiragi/Awesome-Web-Art/blob/master/ananthalakshmiragi/BasicCardFlip.html) | [Anu Ragi](https://github.com/ananthalakshmiragi) |
 | <img src="https://github.com/ananthalakshmiragi/Awesome-Web-Art/blob/master/ananthalakshmiragi/carouselWithText.gif" width=80% height=90%> | [Find the code here](https://github.com/ananthalakshmiragi/Awesome-Web-Art/blob/master/ananthalakshmiragi/carouselWithText.html) | [Anu Ragi](https://github.com/ananthalakshmiragi) |
 | <img src="https://github.com/dawoodmalhi/Awesome-Web-Art/blob/master/dawoodmalhi/sample-run.gif" width=80% height=90%> | [Find the code here](https://github.com/dawoodmalhi/Awesome-Web-Art/blob/master/dawoodmalhi) | [Dawood Malhi](https://github.com/dawoodmalhi) |
-| <img src="https://github.com/meetxpress/Awesome-Web-Art/blob/master/meetxpress/search.gif" width=80% height=90%> | [Find the code here](https://github.com/meetxpress/Awesome-Web-Art/blob/master/meetxpress/) | [Meet Patel](https://github.com/meetxpress) |
+| <img src="https://github.com/meetxpress/Awesome-Web-Art/blob/master/meetxpress/search.gif" width=80% height=90%> | [Find the code here](https://github.com/meetxpress/Awesome-Web-Art/blob/master/meetxpress) | [Meet Patel](https://github.com/meetxpress) |
 
 
 
