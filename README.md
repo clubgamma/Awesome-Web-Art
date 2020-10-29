@@ -95,7 +95,7 @@ Before start contributing please read the [CONTRIBUTING.md](https://github.com/c
 | <img src="https://github.com/dawoodmalhi/Awesome-Web-Art/blob/master/dawoodmalhi/sample-run.gif" width=80% height=90%> | [Find the code here](https://github.com/dawoodmalhi/Awesome-Web-Art/blob/master/dawoodmalhi) | [Dawood Malhi](https://github.com/dawoodmalhi) |
 | <img src="https://github.com/ananthalakshmiragi/Awesome-Web-Art/blob/master/ananthalakshmiragi/bounceList.gif" width=80% height=90%> | [Find the code here](https://github.com/ananthalakshmiragi/Awesome-Web-Art/blob/master/ananthalakshmiragi/bounceList.html) | [Anu Ragi](https://github.com/ananthalakshmiragi) |
 | <img src="https://github.com/meetxpress/Awesome-Web-Art/blob/master/meetxpress/search.gif" width=80% height=90%> | [Find the code here](https://github.com/meetxpress/Awesome-Web-Art/blob/master/meetxpress) | [Meet Patel](https://github.com/meetxpress) |
-| <img src="https://github.com/meetxpress/Awesome-Web-Art/blob/master/Abhilasha06/vid.gif" width=80% height=90%> | [Find the code here](https://github.com/Abhilasha06/Awesome-Web-Art/blob/master/Abhilasha06) | [Abhilasha Sinha](https://github.com/Abhilasha06) |
+| <img src="https://github.com/Abhilasha06/Awesome-Web-Art/blob/master/Abhilasha06/vid.gif" width=80% height=90%> | [Find the code here](https://github.com/Abhilasha06/Awesome-Web-Art/blob/master/Abhilasha06) | [Abhilasha Sinha](https://github.com/Abhilasha06) |
 
 
 
