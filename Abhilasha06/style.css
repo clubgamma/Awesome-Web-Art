@@ -1,0 +1,20 @@
+@-webkit-keyframes pulse {
+    0% { box-shadow:0 0 8px #ea4c89, inset 0 0 8px #ea4c89; }
+    50% { box-shadow:0 0 16px #ea4c89, inset 0 0 14px #ea4c89; }
+    100% { box-shadow:0 0 8px #ea4c89, inset 0 0 8px #ea4c89; }
+  }
+  
+  body {
+    background:#1f1f1f;
+    width:100px;
+    margin:130px auto;
+  }
+
+  .square {
+    width: 1em;
+    height: 1em;
+    -webkit-animation: pulse 2s linear 1s infinite;
+  }
+  
+
+ 
